@@ -1,0 +1,159 @@
+/*
+  elm-hot creates an additional div wrapper around the app to make HMR possible.
+  This could break styling in development mode if you are using Elm UI.
+
+  More context in the issue:
+    https://github.com/halfzebra/create-elm-app/issues/320
+*/
+[data-elm-hot="true"] {
+  height: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+
+html {
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", "Helvetica", "Arial", sans-serif;
+}
+
+body {
+  height: 100vh;
+  overflow-x: hidden;
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background: #eaecec;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  color: #7a7c7c;
+  border-bottom: 2px solid #babcbc;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+button.left {
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+button.right {
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+button:hover{
+  margin-top: 0px;
+  border-bottom-width: 4px;
+}
+
+button:active {
+  margin-top: 4px;
+  border-bottom-width: 0px;
+}
+
+h1 {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 30px;
+  padding: 0.5em;
+  background: white;
+  margin: 0;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  display: block;
+  margin: auto;
+  border: 1px solid black;
+
+}
+
+.card {
+  display: flex;
+  height: 392px;
+  width: 256px;
+  box-shadow: 0 0 40px 1px #cccfcf;
+  border-radius: 20px;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  border-bottom: 1px solid #dadcdc;
+}
+
+.content {
+  width: 100%;
+  height: 75vh;
+  max-width: 960px;
+  margin: auto;
+  padding: 1.5em;
+  display: flex;
+  align-items: center;
+}
+
+.slide {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.controls {
+  position: fixed;
+  background: white;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 10%;
+  padding-bottom: 1em;
+  opacity: 0;
+  overflow: auto;
+  font-size: 0.8em;
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-right: 1em;
+}
+
+.controls a {
+  margin-bottom: 1em;
+  text-decoration: none;
+  color: #3a3c3c;
+  clear: both;
+  display: block;
+}
+
+.controls:hover {
+  opacity: 1;
+}
+
+img {
+  margin: 20px 0;
+  max-width: 200px;
+}
+
+.left {
+  width: 48%;
+  float: left;
+}
+
+.right {
+  width: 48%;
+  float: right;
+}
+
+.left-and-right {
+  width: 100%;
+}
