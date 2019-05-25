@@ -140,7 +140,7 @@
 </symbol>
 </g>
 </defs>
-<g id="surface1714">
+<g id="surface2108">
 <rect x="0" y="0" width="480" height="180" style="fill:rgb(10.2%,10.2%,11%);fill-opacity:1;stroke:none;"/>
 <path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,50.196078%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 140 90 C 200 90 200 -22.5 260 -22.5 "/>
 <path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,50.196078%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 261 -22.5 C 261 -21.167969 259 -21.167969 259 -22.5 C 259 -23.832031 261 -23.832031 261 -22.5 "/>
@@ -306,7 +306,7 @@
 </g>
 <path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 140 90 C 200 90 200 202.5 260 202.5 "/>
 <path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 261 202.5 C 261 203.832031 259 203.832031 259 202.5 C 259 201.167969 261 201.167969 261 202.5 "/>
-<g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
+<g style="fill:rgb(100%,100%,100%);fill-opacity:1;">
   <use xlink:href="#glyph1-1" x="-26.710938" y="95.933594"/>
   <use xlink:href="#glyph1-2" x="-15.15625" y="95.933594"/>
   <use xlink:href="#glyph1-3" x="-3.601562" y="95.933594"/>

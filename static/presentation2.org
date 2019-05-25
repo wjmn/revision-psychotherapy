@@ -14,6 +14,7 @@ jwu202@student.monash.edu
 
 #+begin_descriptor
 - /Quick/ overview only. Place in context with other lectures!
+- Does not cover everything. Supplement with other materials.
 - You /must/ practise *active recall*. You will not remember passively.
 - Repeat, repeat, repeat.
 #+end_descriptor
@@ -23,7 +24,279 @@ jwu202@student.monash.edu
 
 #+TOC: headlines 2
 
-* Selective Serotonin Reuptake Inhibitors (SSRIs)
+
+* Serotonin :neurotransmitter:
+
+#+begin_slide
+
+#+begin_card
+
+#+begin_name
+Serotonin
+#+begin_altname
+#+end_altname
+#+end_name
+
+#+begin_classification
+Neurotransmitter, monoamine
+#+begin_metabolism
+#+end_metabolism
+#+end_classification
+
+[[./notebooks/graphics/serotonin-source.svg]]
+
+#+begin_brief
+#+end_brief
+
+#+begin_procons
+
+#+begin_pros
+Good with:
+#+end_pros
+
+#+begin_cons
+Bad with:
+#+end_cons
+
+#+end_procons
+
+#+begin_sideeffects
+#+end_sideeffects
+
+#+end_card
+
+#+begin_description
+1. Produced by neurons in *raphe nuclei*.
+2. Broad functions - attempting to correlate by receptor:
+
+    | Receptor | Association                                                      |
+    |----------+------------------------------------------------------------------|
+    | 5HT_1    | Migraine, pain. (agonists are anti-migraine e.g. sumatriptan)    |
+    | 5HT_2    | Weight gain.                                                     |
+    | 5HT_3    | Nausea, vomiting. (antagonists are antiemetics e.g. ondansetron) |
+    | 5HT_4    | GI motility (agonists are prokinetic e.g. cisapride).            |
+    | 5HT_5    | ?                                                                |
+    | 5HT_6    | ?                                                                |
+    | 5HT_7    | Thermoregulation, circadian rhythm, cognition.                   |
+
+#+end_description
+#+end_slide
+
+* Noradrenaline :neurotransmitter:
+
+#+begin_slide
+
+#+begin_card
+
+#+begin_name
+Noradrenaline
+#+begin_altname
+Norepinephrine
+#+end_altname
+#+end_name
+
+#+begin_classification
+Neurotransmitter, monoamine
+#+begin_metabolism
+#+end_metabolism
+#+end_classification
+
+[[./notebooks/graphics/noradrenaline-source.svg]]
+
+#+begin_brief
+#+end_brief
+
+#+begin_procons
+
+#+begin_pros
+Good with:
+#+end_pros
+
+#+begin_cons
+Bad with:
+#+end_cons
+
+#+end_procons
+
+#+begin_sideeffects
+#+end_sideeffects
+
+#+end_card
+
+#+begin_description
+1. Produced by neurons in *locus coeruleus*.
+2. Firing corresponds with *wakefulness* and *novel/stressful stimuli.*
+3. Recall your knowledge of autonomic physiology (and the many α and β).
+   - "Fight or flight"
+   - Tachycardia, vasoconstriction...
+
+#+end_description
+
+#+end_slide
+
+* Dopamine :neurotransmitter:
+
+#+begin_slide
+
+#+begin_card
+
+#+begin_name
+Dopamine
+#+begin_altname
+#+end_altname
+#+end_name
+
+#+begin_classification
+Neurotransmitter, monoamine
+#+begin_metabolism
+#+end_metabolism
+#+end_classification
+
+[[./notebooks/graphics/dopamine-source.svg]]
+
+#+begin_brief
+#+end_brief
+
+#+begin_procons
+
+#+begin_pros
+Good with:
+#+end_pros
+
+#+begin_cons
+Bad with:
+#+end_cons
+
+#+end_procons
+
+#+begin_sideeffects
+#+end_sideeffects
+
+#+end_card
+
+#+begin_description
+1. Four main pathways:
+
+    | Pathway            | Source       | Destination           | Association     | Pathology                          |
+    |--------------------+--------------+-----------------------+-----------------+------------------------------------|
+    | Nigrostriatal      | SN           | Dorsal striatum       | Movement        | ↓ ⇒ PD                             |
+    | Mesocortical       | VTA          | Cortex esp. frontal   | Attention       | ↓ ⇒ -ve symptoms schizophrenia (?)  |
+    | Mesolimbic         | VTA          | NA + ventral striatum | Reward          | ↑ ⇒ +ve symptoms schizophrenia (?) |
+    | Tuberoinfundibular | Hypothalamus | Pituitary stalk       | "Don't lactate" | ↓ ⇒ galactorrhoea                  |
+
+    SN = substantia nigra, PD = Parkinson's disease, VTA = ventral tegmental area
+
+2. Five main receptors (D_1 to D_5) distributed throughout the pathways.
+
+   *D_2* is the main target of antipsychotics.
+
+#+end_description
+#+end_slide
+
+* Acetylcholine :neurotransmitter:
+
+#+begin_slide
+
+#+begin_card
+
+#+begin_name
+Acetylcholine
+#+begin_altname
+#+end_altname
+#+end_name
+
+#+begin_classification
+Neurotransmitter
+#+begin_metabolism
+#+end_metabolism
+#+end_classification
+
+[[./notebooks/graphics/acetylcholine-source.svg]]
+
+#+begin_brief
+#+end_brief
+
+#+begin_procons
+
+#+begin_pros
+Good with:
+#+end_pros
+
+#+begin_cons
+Bad with:
+#+end_cons
+
+#+end_procons
+
+#+begin_sideeffects
+#+end_sideeffects
+
+#+end_card
+
+#+begin_description
+1. Produced by neurons *basal forebrain complex* (among other areas).
+2. Projections go to cortex and have role in *cognition*.
+3. Recall also the autonomic role of ACh (makes things *flow*).
+   - Conversely, anti-cholinergic effects make things *stop flowing.*
+     e.g. dry eyes, dry mouth, constipation, urinary retention.
+#+end_description
+#+end_slide
+
+* Histamine :neurotransmitter:
+
+#+begin_slide
+
+#+begin_card
+
+#+begin_name
+Histamine
+#+begin_altname
+#+end_altname
+#+end_name
+
+#+begin_classification
+Neurotransmitter
+#+begin_metabolism
+#+end_metabolism
+#+end_classification
+
+[[./notebooks/graphics/histamine-source.svg]]
+
+#+begin_brief
+#+end_brief
+
+#+begin_procons
+
+#+begin_pros
+Good with:
+#+end_pros
+
+#+begin_cons
+Bad with:
+#+end_cons
+
+#+end_procons
+
+#+begin_sideeffects
+#+end_sideeffects
+
+#+end_card
+
+#+begin_description
+1. Produced by neurons in *tuberomamillary complex* in hypothalamus.
+2. *Sedation*, *appetite control*. dividing by receptor:
+
+    | Receptor | Association                                                                                  |
+    |----------+----------------------------------------------------------------------------------------------|
+    | H_1      | Sedation, vertigo (caused by blockade e.g. from clozapine, doxepin, or even diphenhydramine) |
+    | H_2      | ? in CNS (antagonists not crossing BBB e.g. ranitidine used for peptic ulcer disease)        |
+    | H_3      | Sedation? (inverse agonist maybe for narcolepsy, pitolisant)                                 |
+    | H_4      | Mostly peripheral.                                                                           |
+
+#+end_description
+#+end_slide
+
+* Selective Serotonin Reuptake Inhibitors (SSRIs) :drugclass:
 
 #+begin_slide
 
@@ -117,7 +390,7 @@ so serotonin sticks around longer (*serotonergic*).
 
 #+end_description
 
-* Fluoxetine
+* Fluoxetine :drugexample:
 
 #+begin_slide
 
@@ -178,8 +451,8 @@ Has *all the side effects of SSRIs*, and:
 
 #+begin_description
 
-1. Fluoxetine is the SSRI of choice in children. [fn:1]
-2. Fluoxetine has a long half-life (~ 16 days). [fn:1]
+1. Fluoxetine is the SSRI of choice in children.
+2. Fluoxetine has a long half-life (~ 16 days).
    - ∵ Produces long-living active metabolite (norfluoxetine).
    - Effects may linger after you stop it.
    - Withdrawal symptoms are less common.
@@ -188,61 +461,7 @@ Has *all the side effects of SSRIs*, and:
 
 #+end_slide
 
-* Escitalopram :noexport:
-
-#+begin_slide
-
-#+begin_card
-
-#+begin_name
-Escitalopram
-#+begin_altname
-
-#+end_altname
-Lexapro, Esipram
-#+end_name
-
-#+begin_classification
-SSRI
-#+begin_metabolism
-
-#+end_metabolism
-#+end_classification
-
-[[]]
-
-#+begin_brief
-#+end_brief
-
-#+begin_procons
-
-#+begin_pros
-Used for:
-- *MDD*
-- Social phobia
-- OCD
-- Generalised anxiety disorder
-#+end_pros
-
-#+begin_cons
-Bad with:
-#+end_cons
-
-#+end_procons
-
-#+begin_sideeffects
-#+begin_cardiac
-- Prolonged QT
-#+end_cardiac
-#+end_sideeffects
-
-#+end_card
-
-#+begin_description
-#+end_description
-#+end_slide
-
-* Serotonin and Noradrenaline Reuptake Inhibitors (SNRIs)
+* Serotonin and Noradrenaline Reuptake Inhibitors (SNRIs) :drugclass:
 
 #+begin_slide
 
@@ -307,7 +526,7 @@ name) - *serotonergic* and *noradrenergic*.
 
 #+end_description
 
-* Duloxetine
+* Duloxetine :drugexample:
 
 #+begin_slide
 
@@ -366,7 +585,7 @@ All the side effects of SNRIs, plus
 #+end_description
 #+end_slide
 
-* Noradrenergic and Specific Serotonin Antidepressant (NaSSA)
+* Noradrenergic & Specific Serotonin Antidep... (NaSSA) :drugclass:
 
 #+begin_slide
 
@@ -414,12 +633,12 @@ Blocks /presynaptic/ α_2 adrenoreceptor (*noradrenergic* and indirectly *seroto
 #+begin_description
 1. Quick comparison:
    - Mirtazepine :: One of the 1st-line treatments for depression, sedation
-        (50%) and weight gain (30%) is common.[fn:2]
+        (50%) and weight gain (30%) is common.
    - Sedation :: Mianserin is common, weight gain less so. *Beware
         agranulocytosis* (need FBC before treatment).
 #+end_description
 
-* Mirtazepine
+* Mirtazepine :drugexample:
 
 #+begin_slide
 
@@ -484,7 +703,7 @@ Bad with:
 #+end_description
 #+end_slide
 
-* Tricyclic Antidepressants
+* Tricyclic Antidepressants :drugclass:
 
 #+begin_slide
 
@@ -545,14 +764,14 @@ Inihibit serotonin and noradrenaline reuptake (*serotonergic* and
 #+end_slide
 
 #+begin_description
-1. Not first-line, but a role in severe or melancholic depression. [fn:3]
+1. Not first-line, but a role in severe or melancholic depression.
 2. More receptors blocked → more adverse effects!
    - Note esp. anticholinergic effects
 3. Toxic in overdose. (Antidote is *sodium bicarbonate*)
 4. *Baseline ECG* before beginning.
 #+end_description
 
-* Monoamine Oxidase Inhibitors (MAOIs)
+* Monoamine Oxidase Inhibitors (MAOIs) :drugclass:
 
 #+begin_slide
 
@@ -624,7 +843,7 @@ Inhibit monoamine oxidase (irreversibly, except for moclobemide), so monoamines 
    4. Tyramine → NA → HTN crisis!
 #+end_description
 
-* Lithium
+* Lithium :drugexample:
 
 #+begin_slide
 
@@ -717,7 +936,7 @@ Bad with:
 #+end_description
 #+end_slide
 
-* Sodium Valproate
+* Sodium Valproate :drugexample:
 
 #+begin_slide
 
@@ -793,41 +1012,636 @@ Bad with:
 #+end_description
 #+end_slide
 
-* Typical Antipsychotics
-* 1-Sentence Summaries: Antidepressants
-* 1-Sentence Summaries: Mood Stabilisers
-* 1-Sentence Summaries: Antipsychotics
-* 1-Sentence Summaries: Sedatives
-* 1-Sentence Summaries: Neurostimulation
-* 1-Sentence Summaries: Psychotherapy
-* Situational Q&A: "Ideal Drug"
+* First Generation Antipsychotics (FGAs) / Typicals :drugclass:
+
+#+begin_slide
+
+#+begin_metacard
+
+#+begin_name
+FGAs
+#+end_name
+
+#+begin_classification
+Antipsychotic
+#+end_classification
+
+[[./notebooks/graphics/typicals.svg]]
+
+#+begin_moa
+Block D_2 receptors (*antidopaminergic*). Many also block D_1 receptors and
+others including noradrenergic, cholinergic, histaminergic.
+#+end_moa
+
+#+begin_warning
+- Seizures? (lowers threshold)
+- Parkinson's / Lewy body dementia?
+- GI obstruction?
+#+end_warning
+
+#+begin_sideeffects
 
 
-| In [situation needing treatment]...              | ...choose [the IDEAL drug or drug class] |
-|--------------------------------------------------+------------------------------------------|
-| Depressed patient with weight loss and insomnia. | Mirtazepine                              |
-|                                                  |                                          |
+#+begin_flag
+- *EPSE*
+- Neuroleptic malignant syndrome
+#+end_flag
 
-* Situational Q&A: "Culprit Drug"
+#+begin_git
+- Dry mouth | Constipation
+#+end_git
+
+#+begin_cerebral
+- Sedation | Confusion | Mydriasis
+#+end_cerebral
+
+#+begin_cardiac
+- Orthostatic HoTN | Arrhythmia | QT prolongation
+#+end_cardiac
+
+#+begin_sexual
+- Urinary retention
+#+end_sexual
+
+#+begin_endocrine
+- Galactorrhoea | Gynaecomastia | Amenorrhoea | Sexual dysfunction
+#+end_endocrine
+
+#+end_sideeffects
+
+#+end_metacard
+
+#+begin_description
+#+end_description
+#+end_slide
+
+#+begin_description
+1. Usually tried after a SGA.
+1. Predominantly treat positive, not negative symptoms.
+2. The FGAs are characterised by *exrapyramidal side effects* (EPSEs)
+   (reduce/change antipsychotic, *benztropine*, specialist):
+   1. *Parkinsonism* (rigidity, bradykinesia, tremor)
+   2. *Akathisia* (restlessnes)
+   3. *Dystonias* e.g. torticollis, trismus, oculogyric crisis
+      (writhing movements e.g. of neck, eyes, jaw)
+   4. *Tardive dyskinesia* (involuntary tongue + face movements)
+3. *Neuroleptic malignant syndrome* - "hot statue" (treat with *stopping the
+   drug*, electrolyte and fluid balance, monitoring, cooling, and maybe dantrolene +
+   bromocriptine, amantadine)
+#+end_description
+
+* Chlorphromazine :drugexample:
+
+#+begin_slide
+
+#+begin_card
+
+#+begin_name
+Chlorpromazine
+#+begin_altname
+#+end_altname
+#+end_name
+
+#+begin_classification
+FGA
+#+begin_metabolism
+#+end_metabolism
+#+end_classification
+
+[[./notebooks/graphics/chlorpromazine.svg]]
+
+#+begin_brief
+#+end_brief
+
+#+begin_procons
+
+#+begin_pros
+Good with:
+- Schizophrenia maintenance
+#+end_pros
+
+#+begin_cons
+Bad with:
+- People who work outdoors
+#+end_cons
+
+#+end_procons
+
+#+begin_sideeffects
+All side effects of FGA, and particularly:
+
+#+begin_motor
+- Photosensitivity | Pigmentation
+#+end_motor
+
+#+begin_git
+- Cholestatic jaundice
+#+end_git
+
+#+begin_cerebral
+- Sedation | Corneal / lens opacities
+#+end_cerebral
+
+#+end_sideeffects
+
+#+end_card
+
+#+begin_description
+#+end_description
+#+end_slide
+
+* Second Generation Antipsychotics (SGAs) / Atypicals :drugclass:
+
+#+begin_slide
+
+#+begin_metacard
+
+#+begin_name
+SGAs
+#+end_name
+
+#+begin_classification
+Antipsychotic
+#+end_classification
+
+[[./notebooks/graphics/atypicals.svg]]
+
+#+begin_moa
+Block D_2 receptors (*antidopaminergic*), with minimal action on D_1 receptors.
+#+end_moa
+
+#+begin_warning
+- Seizures? (lowers threshold)
+- Metabolic disease? (weight gain, dyslipidaemia)
+#+end_warning
+
+#+begin_sideeffects
+
+#+begin_git
+- Weight gain
+#+end_git
+
+#+begin_motor
+- EPSE
+#+end_motor
+
+#+begin_cerebral
+- Sedation
+#+end_cerebral
+
+#+begin_cardiac
+- Orthostatic HoTN
+#+end_cardiac
+
+#+begin_endocrine
+- Dyslipidaemia | ↑ glucose | ↑ prolactin
+#+end_endocrine
+#+end_sideeffects
+
+#+end_metacard
+
+#+begin_description
+#+end_description
+#+end_slide
+
+#+begin_description
+1. For first episode psychosis: start with an *oral SGA* other than clozapine.
+2. Less EPSE, more *metabolic effects* (weight gain, dyslipidaemia)
+3. Quick associations:
+
+   | Drug         | Adverse Effect Asssociation                  |
+   |--------------+----------------------------------------------|
+   | Aripiprazole | Agitation                                    |
+   | Risperidone  | Galactorrhoea                                |
+   | Paliperidone | Galactorrhoea                                |
+   | Clozapine    | Cardiometabolic (weight gain, dyslipidaemia) |
+   | Olanzapine   | Cardiometabolic (weight gain, dyslipidaemia) |
+   |              |                                              |
+#+end_description
+
+* Clozapine :drugexample:
+
+#+begin_slide
+
+#+begin_card
+
+#+begin_name
+Clozapine
+#+begin_altname
+#+end_altname
+#+end_name
+
+#+begin_classification
+#+begin_metabolism
+#+end_metabolism
+#+end_classification
+
+[[./notebooks/graphics/clozapine.svg]]
+
+#+begin_brief
+#+end_brief
+
+#+begin_procons
+
+#+begin_pros
+Good with:
+- Treatment-resistant schizophrenia
+- Negative symptoms?
+#+end_pros
+
+#+begin_cons
+Bad with:
+- Neutropaenia / bone marrow disease
+- Cardiomyopathy
+- Seizures
+- Metabolic syndrome / DM
+#+end_cons
+
+#+end_procons
+
+#+begin_sideeffects
+#+begin_blood
+- *AGRANULOCYTOSIS*
+#+end_blood
+
+#+begin_cardiac
+- *MYOCARDITIS* | Cardiomyopathy
+#+end_cardiac
+
+#+begin_endocrine
+- ↑ glucose | ↑ lipids
+#+end_endocrine
+
+#+begin_cerebral
+- Sedation | Hypersalivation
+#+end_cerebral
+
+#+end_sideeffects
+
+#+end_card
+
+#+begin_description
+1. Monitoring is very involved, consult local guidelines.
+
+   | Timepoint                 | Tests                                                                                                          |
+   |---------------------------+----------------------------------------------------------------------------------------------------------------|
+   | Baseline                  | FBE, vitals, BMI / waist circumference, smoking status; Trop, CRP, ESR, UEC, LFT, FBG, HbA1C, lipids; TTE, ECG |
+   | Aftefirst dose            | Vitals every 30m for 2 hours, then hourly for 4 hours.                                                         |
+   |---------------------------+----------------------------------------------------------------------------------------------------------------|
+   | Weekly until Day 28       | FBE, vitals, BMI / waist circumference, smoking status, troponin, CRP                                          |
+   | On Day 28                 | ECG, serum clozapine                                                                                           |
+   |---------------------------+----------------------------------------------------------------------------------------------------------------|
+   | Weekly from Week 4 to 18  | FBE, vitals, BMI / waist circumference, smoking status                                                         |
+   | In Week 12                | ECG, FBG, troponin, CRP, LFT, UEC, serum clozapine                                                             |
+   |---------------------------+----------------------------------------------------------------------------------------------------------------|
+   | Monthly thereafter        | FBE, vitals, BMI / waist circumference, smoking status                                                         |
+   | At 6 months               | ECG, TTE, Serum clozapine, FBG, lipids, troponin, CRP, LFT, UEC                                                |
+   |---------------------------+----------------------------------------------------------------------------------------------------------------|
+   | Annually thereafter       | ECG, FBG, HbA1C, lipids, LFT, UEC, troponin, CRP                                                               |
+   | Years 1-3 then biennially | TTE                                                                                                            |
+   |---------------------------+----------------------------------------------------------------------------------------------------------------|
+
+2. Smoking reduces clozapine levels (smoking cessation increases it).
+
+#+end_description
+#+end_slide
+
+* Benzodiazepines (BZDs) :drugexample:
+
+#+begin_slide
+
+#+begin_metacard
+
+#+begin_name
+Benzodiazepines
+#+end_name
+
+#+begin_classification
+Sedative, anxiolytic
+#+end_classification
+
+[[./notebooks/graphics/bzds.svg]]
+
+#+begin_moa
+Enhance GABA's inhibitory effect in the brain.
+#+end_moa
+
+#+begin_warning
+- Respiratory depression? OSA? Myasthenia gravis? (suppresses more!)
+- Dependence history? (addictive!)
+- Driving/operating heavy machinery?
+#+end_warning
+
+#+begin_sideeffects
+
+#+begin_flag
+- Dependence | Respiratory depression
+#+end_flag
+
+#+begin_cerebral
+- Drowsiness | Slurred speech | Confusion | Aggression | Euphoria
+#+end_cerebral
+
+#+begin_motor
+- Ataxia |
+#+end_motor
+
+#+end_sideeffects
+
+#+end_metacard
+
+#+begin_description
+1. Addictive, so avoid where possible.
+2. Short-acting - temporary agent to get through a single event
+3. Quick associations:
+
+   | Oxazepam   | "Get through single anxiety event"                               |
+   | Alprazolam | Controlled, not recommended.                                     |
+   | Diazepam   | Used for alcohol/BZD withdrawal; for anxiety only if others fail |
+   | Clonazepam | Used for alcohol/BZD withdrawal  |
+   | Temazepam  | Used for insomnia (rapid onset, short half life)                 |
+
+#+end_description
+#+end_slide
+
+#+begin_description
+#+end_description
+
+* Electroconvulsive Therapy (ECT) :neurostim:
+
+#+begin_slide
+
+#+begin_card
+
+#+begin_name
+ECT
+#+begin_altname
+#+end_altname
+#+end_name
+
+#+begin_classification
+Neurostimulation
+#+end_classification
+
+[[./notebooks/graphics/ect.svg]]
+
+#+begin_brief
+Patient undergoes anaesthesia and takes a muscle relaxant; electrical current is
+delivered to the brain to evoke a controlled seizure. Given ~ 3 times / week for
+a total of 6-14 treatments.
+#+end_brief
+
+#+begin_procons
+
+#+begin_pros
+Good with:
+- Psychotic depression
+- Melancholic depression
+- Life-threatening depression
+#+end_pros
+
+#+begin_cons
+Bad with:
+- Electrical equipment e.g. pacemaker
+- Cardiac disease
+- Intracranial lesions
+#+end_cons
+
+#+end_procons
+
+#+begin_sideeffects
+
+#+begin_cerebral
+- Memory loss | Headache | Transient confusion
+#+end_cerebral
+
+#+begin_motor
+- Muscle aches
+#+end_motor
 
 
-| In [bad situation]... | ...choose [the CULPRIT drug or drug class] |
-|-----------------------+--------------------------------------------|
-|                       |                                            |
+#+begin_cardiac
+- Sinus arrest | HoTN / HTN
+#+end_cardiac
+#+end_sideeffects
 
-* Situational Q&A: "Ideal Therapy"
-* Trade Names → Generic Names
+#+end_card
+
+#+begin_description
+1. Note legislation (another lecture).
+#+end_description
+#+end_slide
+
+* Cognitive-Behavioural Therapy (CBT) :psychotherapy:
+
+#+begin_slide
+
+#+begin_card
+
+#+begin_name
+CBT
+#+begin_altname
+#+end_altname
+#+end_name
+
+#+begin_classification
+Psychotherapy
+#+end_classification
+
+[[./notebooks/graphics/cbt.svg]]
+
+#+begin_brief
+Reframing through identifying how thoughts affect behaviour and how behaviour
+affects emotions. ~ 12 - 20 weekly sessions.
+#+end_brief
+
+#+begin_procons
+
+#+begin_pros
+Good with:
+- Mild to moderate uncomplicated depression
+#+end_pros
+
+#+begin_cons
+Bad with:
+-
+#+end_cons
+
+#+end_procons
+
+Includes /acceptance & commitment therapy/ (ACT) and mindfulness.
+
+#+end_card
+
+#+begin_description
+#+end_description
+#+end_slide
+
+* Psychodynamic Psychotherapy :psychotherapy:
+
+#+begin_slide
+
+#+begin_card
+
+#+begin_name
+Psychodynamic Psychotherapy
+#+begin_altname
+#+end_altname
+#+end_name
+
+#+begin_classification
+Psychotherapy
+#+end_classification
+
+[[./notebooks/graphics/psychodynamic.svg]]
+
+#+begin_brief
+Making unconscious conflicts concrete, so a person can be set free from reliving
+their conflicts. Think Freud. Exists on a spectrum from highly regular, to
+as-needed sessions.
+#+end_brief
+
+#+begin_procons
+
+#+begin_pros
+Good with:
+- Psychoneuroses
+- Motivated patients
+- Curious patients
+#+end_pros
+
+#+begin_cons
+Bad with:
+- Dishonest patients
+- Patients lacking insight
+#+end_cons
+
+#+end_procons
+
+Includes *insight-oriented psychotherapy*.
+
+#+end_card
+
+#+begin_description
+#+end_description
+#+end_slide
+
+* Supportive Therapy :psychotherapy:
+
+#+begin_slide
+
+#+begin_card
+
+#+begin_name
+Supportive Therapy
+#+begin_altname
+#+end_altname
+#+end_name
+
+#+begin_classification
+Psychotherapy
+#+end_classification
+
+[[./notebooks/graphics/supportive.svg]]
+
+#+begin_brief
+/Supporting/ people with chronic illness with the skills they need to adapt to
+the external world in a realistic way.
+#+end_brief
+
+#+begin_procons
+
+#+begin_pros
+Good with:
+- Chronic illness (physical, psychological)
+#+end_pros
+
+#+begin_cons
+Bad with:
+#+end_cons
+
+#+end_procons
+
+#+end_card
+
+#+begin_description
+#+end_description
+#+end_slide
+
+* Dialectical Behaviour Therapy (DBT) :psychotherapy:
+
+#+begin_slide
+
+#+begin_card
+
+#+begin_name
+DBT
+#+begin_altname
+#+end_altname
+#+end_name
+
+#+begin_classification
+#+begin_metabolism
+#+end_metabolism
+#+end_classification
+
+[[./notebooks/graphics/dbt.svg]]
+
+#+begin_brief
+#+end_brief
+
+#+begin_procons
+
+#+begin_pros
+Good with:
+- Borderline personality disorder (BPD)
+#+end_pros
+
+#+begin_cons
+Bad with:
+#+end_cons
+
+#+end_procons
+
+#+begin_sideeffects
+#+end_sideeffects
+
+#+end_card
+
+#+begin_description
+#+end_description
+#+end_slide
+
+* Situational Q&A: "Ideal Drug" :review:
+
+#+ATTR_HTML: :class ideal
+| In [situation needing treatment]...              | ...choose [the IDEAL drug or drug class]     |
+|--------------------------------------------------+----------------------------------------------|
+| Depressed patient with weight loss and insomnia. | Mirtazepine                                  |
+| Parkinson's patient who needs an antipsychotic   | Quetiapine OR clozapine OR olanzapine  |
+
+* Situational Q&A: "Culprit Drug" :review:
 
 
-| Prozac   | Fluoxetine   |
-| Lexapro  | Escitalopram |
-| Zoloft   | Sertraline   |
-| Paxil    | Paroxetine   |
-| Celexa   | Citalopram   |
-| Cymbalta | Duloxetine   |
-| Efexor   | Venlafaxine  |
-| Avanza   | Mirtazepine  |
-| Remeron  | Mirtazepine  |
+#+ATTR_HTML: :class culprit
+| In [bad situation]...                                 | ...choose [the CULPRIT drug or drug class] |
+|-------------------------------------------------------+--------------------------------------------|
+| Patient on antipsychotic with significant weight gain | Olanzapine OR Clozapine OR Quetiapine      |
+| Patient on SGA with galactorhoea                      | Risperidone OR Paliperidone                |
+
+
+* Situational Q&A: "Ideal Therapy" :review:
+* Trade Names → Generic Names :reference:
+
+- Avanza = Mirtazepine
+- Celexa = Citalopram
+- Cymbalta = Duloxetine
+- Efexor = Venlafaxine
+- Lexapro = Excitalopram
+- Paxil = Paroxetine
+- Proxac = Fluoxetine
+- Remeron = Mirtazepine
+- Zoloft = Sertraline
 
 * Template :noexport:
 
@@ -902,13 +1716,3 @@ Bad with:
 
 #+begin_description
 #+end_description
-
-
-* Footnotes
-
-[fn:3] eTG
-
-[fn:2] Kaplan and Sadock
-
-[fn:1] [[https://amhonline-amh-net-au.ezproxy.lib.monash.edu.au][Australian Medicines Handbook]]
-

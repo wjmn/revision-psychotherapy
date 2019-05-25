@@ -114,6 +114,69 @@ end
     oralmed((0.95, 0.90, 0.6), 3.0, "Mirtazepine", "by mouth", "15mg", "at night", "once daily")
 end
 
+@img "lithium" begin
+    oralmed((1.0, 0.8, 0.8), 3.0, "Lithium", "by mouth", "125-500mg", "twice daily, 2 weeks", "then adjust!")
+end
+
+@img "valproate" begin
+    oralmed((0.7, 0.5, 0.7), 3.0, "Valproate", "by mouth", "200-400mg", "twice daily", "and adjust!")
+end
+
+@img "chlorpromazine" begin
+    oralmed((1,0.6, 0.3), 3.0, "Chlorpromazine", "by mouth", "200mg", "at night", "daily")
+end
+
+@img "clozapine" begin
+    oralmed((1, 0.9, 0.7), 5.0, "Clozapine", "by mouth", "12.5-200mg", "at night", "daily")
+end
+
+
+function neurostim(starthue :: Tuple{Number, Number, Number}, huescale :: Float64, name :: String)
+
+    gsave()
+
+    newpath()
+    w = Y / 5
+    line(O - (1.5w, 2.5w), O - (0.5w, 2.5w))
+    line(O - (0.5w, 2.5w), O - (0.5w, 0.5w))
+    line(O - (0.5w, 0.5w), O + (1.5w, -0.5w))
+    line(O + (1.5w, -0.5w), O + (1.5w, 2.5w))
+    line(O + (1.5w, 2.5w), O + (0.5w, 2.5w))
+    line(O + (0.5w, 2.5w), O + (0.5w, 0.5w))
+    line(O + (0.5w, 0.5w), O + (-1.5w, 0.5w))
+    line(O + (-1.5w, 0.5w), O - (1.5w, 2.5w))
+    clip()
+
+    sethue(starthue)
+    turtle = Turtle(0,0)
+    walks = rand!(zeros(500, 5))
+    Pencolor(turtle, starthue)
+    for i in 1:500
+        Forward(turtle, walks[i, 1] * 20)
+        Circle(turtle, walks[i, 2]*10)
+        Turn(turtle, walks[i, 3] * 100)
+        Penwidth(turtle, walks[i, 4] * 4)
+        HueShift(turtle, walks[5] * huescale)
+    end
+
+    setline(5)
+    sethue(1,1,1)
+    line(Point(0, -Y/8), Point(0, Y/8), :stroke)
+
+
+    grestore()
+
+    fontsize(20)
+    fontface("Nunito-Bold")
+    text(name, O + (0, 50), valign=:middle, halign=:center)
+    translate(X/3.5,0)
+
+end
+
+@img "ect" begin
+    neurostim((0.5, 0.5, 0.5), 2.0, "ECT")
+end
+
 function title(string)
     gsave()
     fontface("Helvetica-Bold")
@@ -121,7 +184,7 @@ function title(string)
     sethue(0,0,0)
     text(string, 0, 200, halign=:center)
     grestore()
-end
+en
 
 
 
@@ -261,14 +324,18 @@ end
 end
 
 function treesplit(root :: String, labels :: OrderedDict{String, String};
-                    xscale :: Float64 = 1, yscale :: Float64 = 1)
+                    xscale :: Float64 = 1, yscale :: Float64 = 1, withBg::Bool = true)
 
     gsave()
     numlabels = length(labels)
     yspacing = 30 * yscale
     xdist = 120 * xscale
     r_pin = 1
-    background(0.102, 0.102, 0.110)
+    if withBg
+        background(0.102, 0.102, 0.110)
+    else
+        background(0,0,0,0)
+    end
 
     for (i, entry) in enumerate(labels)
         ypos = (i - 0.5 - numlabels / 2) * yspacing
@@ -281,7 +348,7 @@ function treesplit(root :: String, labels :: OrderedDict{String, String};
         text(entry[1], Point(xdist + 10, ypos), valign=:middle)
     end
 
-    sethue(0,0,0)
+    sethue(1,1,1)
     fontface("Helvetica-Bold")
     text(root, -5, 0, valign=:middle, halign=:right)
     grestore()
@@ -396,8 +463,8 @@ end
     translate(-60,0)
 
     labels = OrderedDict(
-        "Biological" => "black",
-        "Psychological" => "black",
+        "Biological" => "white",
+        "Psychological" => "white",
     )
 
     treesplit("Ψ Treatments", labels, xscale=0.75, yscale=2.0)
@@ -410,11 +477,11 @@ end
     translate(-80,0)
 
     labels_bio = OrderedDict(
-        "Antidepressants" => "black",
-        "Mood stabilisers" => "black",
-        "Antipsychotics" => "black",
-        "Sedatives" => "black",
-        "Neurostimulation" => "black",
+        "Antidepressants" => "white",
+        "Mood stabilisers" => "white",
+        "Antipsychotics" => "white",
+        "Sedatives" => "white",
+        "Neurostimulation" => "white",
     )
 
     treesplit("BIOLOGICAL", labels_bio, xscale=1.0, yscale=1.0)
@@ -428,10 +495,10 @@ end
         "Serotonin " => "red",
         "Noradrenaline" => "red",
         "Dopamine" => "red",
-        "Acetylcholine" => "black",
-        "Histamine" => "black",
-        "GABA" => "black",
-        "Glutamate" => "black",
+        "Acetylcholine" => "white",
+        "Histamine" => "white",
+        "GABA" => "white",
+        "Glutamate" => "white",
     )
 
     treesplit("NEUROTRANSMITTERS", labels, xscale=1.0, yscale=1.0)
@@ -444,12 +511,12 @@ apropos("ordered dict")
     translate(-80, 0)
 
     labels = OrderedDict(
-        "Fluoxetine" => "green",
-        "Paroxetine" => "black",
-        "Escitalopram" => "black",
-        "Citalopram" => "black",
-        "Fluvoxamine" => "black",
-        "Sertraline" => "black",
+        "Fluoxetine" => "lightgreen",
+        "Paroxetine" => "white",
+        "Escitalopram" => "white",
+        "Citalopram" => "white",
+        "Fluvoxamine" => "white",
+        "Sertraline" => "white",
     )
 
     treesplit("SSRIs", labels, xscale=1.0, yscale=0.8)
@@ -459,10 +526,10 @@ end
 @img "snri" begin
     translate(-80,0)
     labels = OrderedDict(
-        "Duloxetine" => "black",
-        "Venlafaxine" => "black",
-        "Desvenlafaxine" => "black",
-        "Milnacipran" => "grey80",
+        "Duloxetine" => "white",
+        "Venlafaxine" => "white",
+        "Desvenlafaxine" => "white",
+        "Milnacipran" => "grey",
     )
 
     treesplit("SNRIs", labels, xscale=1.0, yscale=1.0)
@@ -471,8 +538,8 @@ end
 @img "NaSSA" begin
     translate(-80,0)
     labels = OrderedDict(
-        "Mirtazepine" => "green",
-        "Mianserin" => "grey80",
+        "Mirtazepine" => "lightgreen",
+        "Mianserin" => "grey",
     )
 
     treesplit("NaSSAs", labels, xscale=1.0, yscale=1.0)
@@ -480,33 +547,33 @@ end
 
 @img "maoi" begin
     labels = OrderedDict(
-        "Non-selective" => "black",
-        "MAO-A" => "black",
-        "MAO-B" => "black"
+        "Non-selective" => "white",
+        "MAO-A" => "white",
+        "MAO-B" => "white"
     )
 
     labels_non = OrderedDict(
-        "Tranylcypramine" => "black",
-        "Phenelzine" => "black",
-        "Isocarboxazid" => "grey80",
+        "Tranylcypramine" => "white",
+        "Phenelzine" => "white",
+        "Isocarboxazid" => "grey",
     )
 
     labels_a = OrderedDict(
-        "Moclobemide (reversible)" => "green",
+        "Moclobemide (reversible)" => "lightgreen",
     )
 
     labels_b = OrderedDict(
-        "Selegiline" => "grey80",
+        "Selegiline" => "grey",
     )
 
     translate(-160,14)
     treesplit("MAOIs", labels, xscale=0.5, yscale=2.0)
     translate(180, -60)
-    treesplit("", labels_non, xscale=0.5, yscale=1.0)
+    treesplit("", labels_non, xscale=0.5, yscale=1.0, withBg = false)
     translate(-45, 60)
-    treesplit("", labels_a, xscale=0.5, yscale=1.0)
+    treesplit("", labels_a, xscale=0.5, yscale=1.0, withBg = false)
     translate(0, 60)
-    treesplit("", labels_b, xscale=0.5, yscale=1.0)
+    treesplit("", labels_b, xscale=0.5, yscale=1.0, withBg = false)
 end
 
 
@@ -515,13 +582,97 @@ end
     translate(-80, 0)
 
     labels = OrderedDict(
-        "Amitriptyline" => "black",
-        "Clomipramine" => "black",
-        "Dothiepin" => "black",
-        "Doxepin" => "black",
-        "Imipramine" => "black",
-        "Nortriptyline" => "black",
+        "Amitriptyline" => "white",
+        "Clomipramine" => "white",
+        "Dothiepin" => "white",
+        "Doxepin" => "white",
+        "Imipramine" => "white",
+        "Nortriptyline" => "white",
     )
 
     treesplit("TCAs", labels, xscale=1.0, yscale=0.8)
+end
+
+@img "typicals" begin
+
+    translate(-90,0)
+
+    labels = OrderedDict(
+        "Chlorpromazine" => "white",
+        "Haloperidol*" => "white",
+        "Zuclopenthixol*" => "white",
+        "Flupenthixol*" => "gray",
+        "Fluphenazine*" => "gray",
+        "Pericyazine" => "gray",
+    )
+
+    treesplit("FGAs", labels, xscale=0.8, yscale=0.9)
+
+
+    sethue(1,1,1)
+    text("* Has depot form.", 240, 80)
+end
+
+@img "atypicals" begin
+    translate(-80,0)
+
+    labels = OrderedDict(
+        "Amisulpride" => "white",
+        "Aripiprazole" => "white",
+        "Asenapine" => "grey",
+        "Clozapine" => "coral",
+        "Olanzapine*" => "white",
+        "Paliperidone*" => "white",
+        "Quetiapine" => "white",
+        "Risperidone*" => "white",
+        "Ziprasidone" => "white",
+        "Sertindole" => "grey",
+    )
+
+    treesplit("SGAs", labels, xscale=0.8, yscale=0.58)
+    sethue(1,1,1)
+    text("* Has depot form.", 240, 80)
+end
+
+@img "bzds" begin
+
+    translate(-170, 0)
+
+    labels = OrderedDict(
+        "Very-short acting" => "white",
+        "Short-acting" => "white",
+        "Medium-acting" => "white",
+        "Long-acting" => "white"
+    )
+
+    treesplit("BZDs", labels, xscale=0.5, yscale=1.5)
+
+    labels_vs = OrderedDict(
+        "Midazolam" => "white"
+    )
+
+    labels_s = OrderedDict(
+        "Alprazolam" => "white",
+        "Oxazepam" => "white",
+        "Temazepam" => "white",
+    )
+
+    labels_m = OrderedDict(
+        "Lorazepam" => "white",
+        "Bromazepam" => "grey",
+    )
+
+    labels_l = OrderedDict(
+        "Clonazepam" => "white",
+        "Diazepam" => "white",
+    )
+
+    translate(200, 67.5)
+    treesplit("", labels_vs, xscale=0.5, yscale=1.0, withBg = false)
+    translate(0, 45)
+    treesplit("", labels_s, xscale=0.5, yscale=0.5, withBg = false)
+    translate(0, 45)
+    treesplit("", labels_m, xscale=0.5, yscale=0.5, withBg = false)
+    translate(0, 37.5)
+    treesplit("", labels_l, xscale=0.5, yscale=0.5, withBg = false)
 end

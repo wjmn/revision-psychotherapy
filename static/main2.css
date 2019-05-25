@@ -16,7 +16,6 @@ body {
     justify-content: center;
     align-content: center;
     align-items: center;
-    border: 1px dotted black;
 }
 
 .title {
@@ -25,14 +24,74 @@ body {
 }
 
 #table-of-contents {
+    padding: 2%;
+    box-sizing: border-box;
     height: 100vh;
-    border: 1px dotted black;
+}
+
+span.tag {
+    padding-left: 1em;
+    padding-right: 1em;
+    float: right;
+    font-family: inherit;
+    color: #444444;
+}
+
+#table-of-contents li {
+    margin-right: 2em;
+}
+
+#table-of-contents ul {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+    line-height: 1.5;
 }
 
 .outline-2 {
     height: 100vh;
-    border: 1px dotted black;
 }
+
+.outline-text-2 > table {
+    width: 90%;
+    box-sizing: border-box;
+    margin: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.outline-text-2 > ul {
+    padding-left: 5%;
+    padding-right: 5%;
+    -moz-column-count: 4;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 20px;
+    column-count: 4;
+    column-gap: 20px;
+}
+
+.outline-text-2 > ul > li {
+    margin-right: 2em;
+}
+
+.culprit th {
+    background: #d82051;
+    color: white;
+    border-bottom: 1px solid white;
+    border-top: none;
+}
+
+.ideal th {
+    background: #2dce65;
+    color: white;
+    border-bottom: 1px solid white;
+    border-top: none;
+}
+
 
 .card, .metacard {
     height: 495px;
