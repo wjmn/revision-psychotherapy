@@ -624,6 +624,211 @@ Inhibit monoamine oxidase (irreversibly, except for moclobemide), so monoamines 
    4. Tyramine → NA → HTN crisis!
 #+end_description
 
+* Lithium
+
+#+begin_slide
+
+#+begin_card
+
+#+begin_name
+Lithium
+#+begin_altname
+Lithicarb
+#+end_altname
+#+end_name
+
+#+begin_classification
+Mood stabiliser
+#+begin_metabolism
+Renal clearance
+#+end_metabolism
+#+end_classification
+
+[[./notebooks/graphics/lithium.svg]]
+
+#+begin_brief
+#+end_brief
+
+#+begin_procons
+
+#+begin_pros
+Used for:
+- Bipolar disease prophylaxis
+- Acute mania
+#+end_pros
+
+#+begin_cons
+Bad with:
+- Hypothyroidism
+- Renal impairment
+- Pregnancy
+#+end_cons
+
+#+end_procons
+
+#+begin_sideeffects
+
+#+begin_flag
+- Lithium toxicity
+#+end_flag
+
+#+begin_git
+- Metallic taste | Diarrhoea | Weight gain
+#+end_git
+
+#+begin_motor
+- Fine tremor | Acne | Hair loss
+#+end_motor
+
+#+begin_cerebral
+- Fatigue | Headache | Vertigo | Memory impairment
+#+end_cerebral
+
+#+begin_endocrine
+- Hypothyroidism | Hypercalcaemia | Hyper PTH | Diabetes insipidus
+#+end_endocrine
+
+#+end_sideeffects
+
+#+end_card
+
+#+begin_description
+
+1. *Lithium toxicity* - MUST educate!
+
+    GIT upset, ataxia, course tremor, hyperreflexia/tonia, clonus, confusion,
+   psychosis, seizures, coma.
+
+2. Therapeutic range:
+   | Acute mania | 0.5-1.2 mmol/L  |
+   | Prophylaxis | 0.4-1.0 mmol/L  |
+3. Monitoring:
+   
+   | Baseline                               | Ca, PTH, UEC, TSH ± ECG |
+   | 5-7d after starting, when dose changed | Serum lithium           |
+   | Every 3-6 months                       | Serum lithium, UEC      |
+   | Every 6-12 months                      | TSH, Ca ± PTH           |
+
+4. Measure concentrations *8-12 hours* after last dose.
+5. Beware acute illness, dehydration, vomiting, diarrhoea.
+
+   Higher risk of toxicity!
+
+#+end_description
+#+end_slide
+
+* Sodium Valproate
+
+#+begin_slide
+
+#+begin_card
+
+#+begin_name
+Sodium Valproate
+#+begin_altname
+Epilim, Valpro
+#+end_altname
+#+end_name
+
+#+begin_classification
+Mood stabilier, antiepileptic
+#+begin_metabolism
+#+end_metabolism
+#+end_classification
+
+[[./notebooks/graphics/valproate.svg]]
+
+#+begin_brief
+#+end_brief
+
+#+begin_procons
+
+#+begin_pros
+Used for:
+- Bipolar prophylaxis
+- Acute mania
+- (Epilepsy)
+- (Migraine prophylaxis)
+#+end_pros
+
+#+begin_cons
+Bad with:
+- *PREGNANCY* (NO!)
+- Hepatic impairment
+- Porphyria
+- Pancreatic dysfunction
+#+end_cons
+
+#+end_procons
+
+#+begin_sideeffects
+#+begin_git
+- Nausea | Vomiting | Weight gain | Hepatic failure | Pancreatitis
+#+end_git
+
+#+begin_cerebral
+- Dizziness | Drowsiness | Memory loss
+#+end_cerebral
+
+#+begin_motor
+- Tremor | Hair loss | Paraeshtesia | Ataxia | Hypersensitivity
+#+end_motor
+
+#+begin_blood
+- Abnormal bleeding | Thrombocytopeina | Leucopenia
+#+end_blood
+
+#+begin_sexual
+- PCOS | Menstrual irregularity
+#+end_sexual
+
+#+end_sideeffects
+
+#+end_card
+
+#+begin_description
+1. Monitoring:
+   1. Before starting: *FBE*, *UEC*, *LFTs*
+   2. Every 3-6m: *FBE*
+#+end_description
+#+end_slide
+
+* Typical Antipsychotics
+* 1-Sentence Summaries: Antidepressants
+* 1-Sentence Summaries: Mood Stabilisers
+* 1-Sentence Summaries: Antipsychotics
+* 1-Sentence Summaries: Sedatives
+* 1-Sentence Summaries: Neurostimulation
+* 1-Sentence Summaries: Psychotherapy
+* Situational Q&A: "Ideal Drug"
+
+
+| In [situation needing treatment]...              | ...choose [the IDEAL drug or drug class] |
+|--------------------------------------------------+------------------------------------------|
+| Depressed patient with weight loss and insomnia. | Mirtazepine                              |
+|                                                  |                                          |
+
+* Situational Q&A: "Culprit Drug"
+
+
+| In [bad situation]... | ...choose [the CULPRIT drug or drug class] |
+|-----------------------+--------------------------------------------|
+|                       |                                            |
+
+* Situational Q&A: "Ideal Therapy"
+* Trade Names → Generic Names
+
+
+| Prozac   | Fluoxetine   |
+| Lexapro  | Escitalopram |
+| Zoloft   | Sertraline   |
+| Paxil    | Paroxetine   |
+| Celexa   | Citalopram   |
+| Cymbalta | Duloxetine   |
+| Efexor   | Venlafaxine  |
+| Avanza   | Mirtazepine  |
+| Remeron  | Mirtazepine  |
+
 * Template :noexport:
 
 #+begin_slide
@@ -707,36 +912,3 @@ Bad with:
 
 [fn:1] [[https://amhonline-amh-net-au.ezproxy.lib.monash.edu.au][Australian Medicines Handbook]]
 
-#+begin_fullpage
-
-Two common types of questions:
-
-1. DO CHOOSE THIS
-
-| In [situation needing treatment]...              | ...choose [the IDEAL drug or drug class] |
-|--------------------------------------------------+------------------------------------------|
-| Depressed patient with weight loss and insomnia. | Mirtazepine                              |
-|                                                  |                                          |
-
-
-THE MOST LIKELY CAUSATIVE AGENT
-
-| In [bad situation]... | ...choose [the CULPRIT drug or drug class] |
-|-----------------------+--------------------------------------------|
-|                       |                                            |
-
-#+end_fullpage
-
-#+begin_fullpage
-
-| Prozac   | Fluoxetine   |
-| Lexapro  | Escitalopram |
-| Zoloft   | Sertraline   |
-| Paxil    | Paroxetine   |
-| Celexa   | Citalopram   |
-| Cymbalta | Duloxetine   |
-| Efexor   | Venlafaxine  |
-| Avanza   | Mirtazepine  |
-| Remeron  | Mirtazepine  |
-
-#+end_fullpage
