@@ -1,0 +1,320 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.titleslide {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: 1px dotted black;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#table-of-contents {
+    height: 100vh;
+    border: 1px dotted black;
+}
+
+.outline-2 {
+    height: 100vh;
+    border: 1px dotted black;
+}
+
+.card, .metacard {
+    height: 495px;
+    width: 330px;
+    float: left;
+    margin-left: 4em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    margin-right: 2em;
+    padding: 1em;
+    box-shadow: 0 0 10px 2px #dadddd;
+    border-radius: 20px;
+    font-family: "Nunito", serif;
+    font-size: 0.8em;
+}
+ol {
+    counter-reset:li;
+    margin-left:0;
+    padding-left:0;
+}
+ol > li {
+    position:relative;
+    margin:0 0 6px 2em;
+    padding:4px 8px;
+    list-style:none;
+    border-top:2px solid #666;
+    background:#f6f6f6;
+}
+ol > li:before {
+    content:counter(li); /* Use the counter as content */
+    counter-increment:li; /* Increment the counter by 1 */
+    position:absolute;
+    top:-2px;
+    left:-2em;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    width:2em;
+    /* Some space between the number and the content in browsers that support
+       generated content but not positioning it (Camino 2 is one example) */
+    margin-right:8px;
+    padding:4px;
+    border-top:2px solid #666;
+    color:#fff;
+    background:#666;
+    font-weight:bold;
+    font-family:"Helvetica Neue", Arial, sans-serif;
+    text-align:center;
+}
+
+ol ol > li {
+    border: none;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+ol ol p {
+    margin: 0 !important;
+    padding: 0;
+}
+
+ol ol {
+    font-size: 0.8em;
+}
+
+ol ol > li:before {
+    border-radius: 100%;
+    background: #f6f6f6;
+    color: #666;
+    border: 1px solid #666;
+    font-size: 0.8em;
+    padding-top: 0px;
+    margin-top: 5px;
+    font-weight: normal;
+    height: 1.3em;
+    width: 1.3em;
+}
+
+li ol,
+li ul {margin-top:6px;}
+ol ol li:last-child {margin-bottom:0;}
+
+.metacard {
+    background: #1a1c1c;
+    color: #dddddd;
+}
+
+.card .figure, .metacard .figure {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.card .figure p, .metacard .figure p {
+    margin: 0;
+    padding: 0;
+}
+
+.card svg, .metacard svg {
+    margin: 0;
+    padding: 0;
+}
+
+.org-svg {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+h2 {
+    margin-top: 1em;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-bottom: 1px solid black;
+}
+
+.card p, .metacard p {
+    margin: 0;
+    padding: 0;
+}
+
+.card .name, .metacard .name {
+    font-weight: bold;
+    font-size: 1.3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .name .altname, .metacard .name .altname {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 0.8em;
+    color: #6a6c6c;
+}
+
+.card .classification, .metacard .classification {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .metabolism {
+    color: #6a6c6c;
+}
+
+.description {
+    float: right;
+    font-size: 1.1em;
+    width: 50%;
+    margin-right: 5%;
+}
+
+.description table {
+    margin: auto;
+    font-size: 0.75em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.description p {
+    margin: 0;
+    margin-bottom: 0.5em;
+    padding: 0;
+}
+
+.moa {
+    font-size: 1.1em;
+    text-style: italic;
+}
+
+.procons {
+    padding-top: 0.5em;
+    margin-top: 1em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: auto;
+    float: left;
+    width: 100%;
+}
+
+.procons p {
+    margin: 0;
+    padding: 0;
+}
+
+.procons ul {
+    margin: 0;
+}
+
+.pros {
+    float: left;
+    width: 50%
+}
+.cons {
+    float: right;
+    width: 50%;
+}
+
+.pros ul, .cons ul, .warning ul, .sideeffects ul {
+  list-style: none;
+  padding-left: 1.5em;
+}
+
+.pros ul li:before {
+  content: '✓ ';
+  float: left;
+  margin-left: -1.5em;
+}
+
+.cons ul li:before {
+    content: '✕ ';
+  float: left;
+  margin-left: -1.5em;
+}
+
+.warning ul li:before {
+    content: '⚠ ';
+  float: left;
+  margin-left: -1.5em;
+}
+
+/* SIDE EFFECTS STYLING */
+
+.sideeffects {
+    margin-left: 1.5em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 30%;
+    width: 100%;
+}
+
+.sideeffects div {
+    width: 50%;
+    box-sizing: border-box;
+    padding-right: 2em;
+}
+
+.sideeffects ul {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    padding: 0;
+}
+
+.sideeffects div:before {
+    float: left;
+    margin-left: -1.5em;
+}
+
+
+.sideeffects .cardiac:before {
+    content: '♥ ';
+}
+
+.sideeffects .cerebral:before {
+   content: '⚇';
+}
+
+.sideeffects .endocrine:before {
+    content: '⋈ ';
+}
+
+.sideeffects .flag:before {
+    content: '⚐ ';
+}
+
+.sideeffects .motor:before {
+    content: "☞ ";
+}
+
+.sideeffects .blood:before {
+    content: '◯ ';
+}
+
+.sideeffects .sexual:before {
+    content: "⚥ ";
+}
+
+.sideeffects .git:before {
+    content: "⛾ ";
+}
+

@@ -1,0 +1,742 @@
+#+TITLE: Treatments in Psychiatry
+#+HTML_HEAD: <link href="./main2.css" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap" rel="stylesheet">
+#+OPTIONS: title:nil num:nil toc:nil
+
+#+begin_titleslide
+
+#+begin_title
+Treatments in Psychiatry
+#+end_title
+
+#+begin_author
+jwu202@student.monash.edu
+#+end_author
+
+#+begin_descriptor
+- /Quick/ overview only. Place in context with other lectures!
+- You /must/ practise *active recall*. You will not remember passively.
+- Repeat, repeat, repeat.
+#+end_descriptor
+
+
+#+end_titleslide
+
+#+TOC: headlines 2
+
+* Selective Serotonin Reuptake Inhibitors (SSRIs)
+
+#+begin_slide
+
+#+begin_metacard
+
+#+begin_name
+SSRIs
+#+end_name
+
+#+begin_classification
+Antidepressant
+#+end_classification
+
+[[./notebooks/graphics/ssri.svg]]
+
+#+begin_moa
+These /selectively/ inhibit serotonin reuptake (it's in the name!),
+so serotonin sticks around longer (*serotonergic*).
+#+end_moa
+
+#+begin_warning
+- Manic episode history? (mixed state!)
+- MAOI in last 14 days? (serotonin syndrome!)
+- Driving/heavy machinery? (maybe sleepy!)
+#+end_warning
+
+#+begin_sideeffects
+
+#+begin_flag
+- Serotonin syndrome
+#+end_flag
+
+#+begin_sexual
+- Sexual dysfunction
+#+end_sexual
+
+#+begin_git
+- Nausea | Diarrhoea | Dry mouth | Weight gain
+#+end_git
+
+#+begin_cerebral
+- Agitation | Insomnia | Drowsiness | Headache | ? Suicidality
+#+end_cerebral
+
+#+begin_motor
+- Tremor | Sweating
+#+end_motor
+
+#+begin_cardiac
+- QT Prolongation
+#+end_cardiac
+
+#+begin_endocrine
+- Hyponatraemia
+#+end_endocrine
+
+#+begin_blood
+- Bleeding risk
+#+end_blood
+
+
+#+end_sideeffects
+
+#+end_metacard
+
+#+begin_description
+#+end_description
+#+end_slide
+
+#+begin_description
+
+1. First-line treatment for MDD (with SNRIs and mirtazepine).
+2. Quick associations
+
+    | Drug         | Associations                                                                               |
+    |--------------+--------------------------------------------------------------------------------------------|
+    | Fluoxetine   | Longest ½ life, choose for children                                                        |
+    | Paroxetine   | Shortest ½ life, birth defects, some anticholinergic,  precipitates angle-closure glaucoma |
+    | Escitalopram | More selective, QT prolongation, less weight gain, less agitation                          |
+    | Citalopram   | More selective, QT prolongation                                                            |
+3. *Serotonin syndrome* is a triad of:
+   1. Autonomic signs
+
+      ("hot and bothered and need the toilet")
+   2. Neuromuscular signs
+
+      (tremor, akathisia, hyperreflexia, clonus)
+   3. Altered mental status
+
+      (headache, confusion, hypomania, hallucinations)
+
+#+end_description
+
+* Fluoxetine
+
+#+begin_slide
+
+#+begin_card
+
+#+begin_name
+Fluoxetine
+#+begin_altname
+Prozac, Lovan
+#+end_altname
+#+end_name
+
+
+#+begin_classification
+SSRI
+#+begin_metabolism
+Hepatic metabolism
+#+end_metabolism
+#+end_classification
+
+[[./notebooks/graphics/fluoxetine.svg]]
+
+#+begin_brief
+
+#+end_brief
+
+#+begin_procons
+
+#+begin_pros
+Used for:
+- *MDD*
+- OCD
+- Bulimia
+- Premenstrual dysphoric disorder
+#+end_pros
+
+#+begin_cons
+Bad with:
+- Hepatic impairment
+
+  (hepatic metabolism)
+- CYP-interacting drugs
+- Breastfeeding
+
+  (long half-life)
+#+end_cons
+#+end_procons
+
+Has *all the side effects of SSRIs*, and:
+
+#+begin_sideeffects
+#+begin_git
+- Anorexia | Initial weight loss
+#+end_git
+#+end_sideeffects
+
+#+end_card
+
+#+begin_description
+
+1. Fluoxetine is the SSRI of choice in children. [fn:1]
+2. Fluoxetine has a long half-life (~ 16 days). [fn:1]
+   - ∵ Produces long-living active metabolite (norfluoxetine).
+   - Effects may linger after you stop it.
+   - Withdrawal symptoms are less common.
+
+#+end_description
+
+#+end_slide
+
+* Escitalopram :noexport:
+
+#+begin_slide
+
+#+begin_card
+
+#+begin_name
+Escitalopram
+#+begin_altname
+
+#+end_altname
+Lexapro, Esipram
+#+end_name
+
+#+begin_classification
+SSRI
+#+begin_metabolism
+
+#+end_metabolism
+#+end_classification
+
+[[]]
+
+#+begin_brief
+#+end_brief
+
+#+begin_procons
+
+#+begin_pros
+Used for:
+- *MDD*
+- Social phobia
+- OCD
+- Generalised anxiety disorder
+#+end_pros
+
+#+begin_cons
+Bad with:
+#+end_cons
+
+#+end_procons
+
+#+begin_sideeffects
+#+begin_cardiac
+- Prolonged QT
+#+end_cardiac
+#+end_sideeffects
+
+#+end_card
+
+#+begin_description
+#+end_description
+#+end_slide
+
+* Serotonin and Noradrenaline Reuptake Inhibitors (SNRIs)
+
+#+begin_slide
+
+#+begin_metacard
+
+#+begin_name
+SNRIs
+#+end_name
+
+#+begin_classification
+Antidepressant
+#+end_classification
+
+[[./notebooks/graphics/snri.svg]]
+
+#+begin_moa
+These inhibit both *serotonin* and *noradrenaline* reuptake (it's also in the
+name) - *serotonergic* and *noradrenergic*.
+#+end_moa
+
+#+begin_warning
+- Manic episode history? (mixed state!)
+- MAOI in last 14 days? (serotonin syndrome!)
+- Driving/heavy machinery? (maybe sleepy!)
+- Heart disease? (tachycardia, palpitations, ↑BP)
+#+end_warning
+
+#+begin_sideeffects
+#+begin_git
+- Nausea | Decreased appetite | Dry mouth | Constipation
+#+end_git
+#+begin_cerebral
+- Dizziness | Headache | Insomnia or Somnolence | Blurred vision | ? Suicidality
+#+end_cerebral
+#+begin_motor
+- Tremor
+#+end_motor
+#+begin_cardiac
+- Palpitations | HTN | Orthostatic HoTN | Takotsubo
+#+end_cardiac
+
+#+begin_endocrine
+- Hyponatraemia
+#+end_endocrine
+
+#+begin_sexual
+- Sexual dysfunction
+#+end_sexual
+#+end_sideeffects
+
+#+end_metacard
+
+#+begin_description
+#+end_description
+#+end_slide
+
+#+begin_description
+1. First line for MDD (with SSRIs and mirtazepine)
+2. Check BP before treating
+
+   Noradrenergic → ↑ BP
+
+#+end_description
+
+* Duloxetine
+
+#+begin_slide
+
+#+begin_card
+
+#+begin_name
+Duloxetine
+#+begin_altname
+Cymbalta, Andepra
+#+end_altname
+#+end_name
+
+#+begin_classification
+SNRI
+#+begin_metabolism
+Hepatic + renal
+#+end_metabolism
+#+end_classification
+
+[[./notebooks/graphics/duloxetine.svg]]
+
+#+begin_brief
+#+end_brief
+
+#+begin_procons
+
+#+begin_pros
+Used for:
+- *MDD*
+- Painful diabetic neuropathy
+- Generalised anxiety disorder
+#+end_pros
+
+#+begin_cons
+Bad with:
+- Hepatic impairment (contraindicated)
+#+end_cons
+
+#+end_procons
+
+All the side effects of SNRIs, plus
+
+#+begin_sideeffects
+#+begin_sexual
+- Urinary retention
+#+end_sexual
+#+begin_git
+- Liver failure
+#+end_git
+
+#+end_sideeffects
+
+#+end_card
+
+#+begin_description
+#+end_description
+#+end_slide
+
+* Noradrenergic and Specific Serotonin Antidepressant (NaSSA)
+
+#+begin_slide
+
+#+begin_metacard
+
+#+begin_name
+NaSSA / Tetracyclic Antidepressants
+#+end_name
+
+#+begin_classification
+Antidepressant
+#+end_classification
+
+[[./notebooks/graphics/NaSSa.svg]]
+
+#+begin_moa
+Blocks /presynaptic/ α_2 adrenoreceptor (*noradrenergic* and indirectly *serotonergic*), blocks postsynaptic
+5HT_2 and 5HT_3, and blocks H_1 (*antihistaminergic*).
+#+end_moa
+
+#+begin_warning
+- Manic episode history? (mixed state!)
+- MAOI in last 14 days? (serotonin syndrome!)
+- Driving/heavy machinery? (maybe sleepy!)
+#+end_warning
+
+#+begin_sideeffects
+
+#+begin_cerebral
+- Sedation
+#+end_cerebral
+
+#+begin_git
+- Increased appetite
+#+end_git
+
+#+end_sideeffects
+
+#+end_metacard
+
+#+begin_description
+#+end_description
+#+end_slide
+
+#+begin_description
+1. Quick comparison:
+   - Mirtazepine :: One of the 1st-line treatments for depression, sedation
+        (50%) and weight gain (30%) is common.[fn:2]
+   - Sedation :: Mianserin is common, weight gain less so. *Beware
+        agranulocytosis* (need FBC before treatment).
+#+end_description
+
+* Mirtazepine
+
+#+begin_slide
+
+#+begin_card
+
+#+begin_name
+Mirtazepine
+#+begin_altname
+Avanza, Remeron
+#+end_altname
+#+end_name
+
+#+begin_classification
+NaSSA / Tetracyclic Antidepressant
+#+begin_metabolism
+#+end_metabolism
+#+end_classification
+
+[[./notebooks/graphics/mirtazepine.svg]]
+
+#+begin_brief
+#+end_brief
+
+#+begin_procons
+
+#+begin_pros
+Used for:
+- MDD
+#+end_pros
+
+#+begin_cons
+Bad with:
+- Allergy to mianserin
+-
+#+end_cons
+
+#+end_procons
+
+#+begin_sideeffects
+
+#+begin_cerebral
+- *SEDATION*
+#+end_cerebral
+
+#+begin_git
+- *INCREASED APPETITE*
+#+end_git
+
+
+#+end_sideeffects
+
+#+end_card
+
+#+begin_description
+
+1. *Mirtazepine* is first-line for MDD (along with SSRIs and SNRIs).
+2. Unlike SSRIs, mirtazepine is:
+   - Sedating (so given at night)
+   - Appetite-stimulating (weight gain!)
+   - Associated with less nausea (5HT_3)
+3. Useful for patients with insomnia and low appetite, weight loss!
+#+end_description
+#+end_slide
+
+* Tricyclic Antidepressants
+
+#+begin_slide
+
+#+begin_metacard
+
+#+begin_name
+TCAs
+#+end_name
+
+#+begin_classification
+Antidepressant
+#+end_classification
+
+[[./notebooks/graphics/tca.svg]]
+
+#+begin_moa
+Inihibit serotonin and noradrenaline reuptake (*serotonergic* and
+*noradrenergic*). Also *anti-cholinergic*, *anti-histaminergic* and
+*α_1-adrenergic*.
+#+end_moa
+
+#+begin_warning
+- Prostatic hypertrophy? (urinary retention!)
+- Cardiac disease? (arrhythmia, prolong QT, angina!)
+- High risk suicide? (fatal overdoses!)
+- Manic episode history? (mixed state!)
+- Driving or operating heavy machinery?
+#+end_warning
+
+#+begin_sideeffects
+#+begin_cerebral
+- Blurred vision |  Dry eyes | Anticholinergic delirium |
+  Dizziness | Insomnia
+#+end_cerebral
+
+#+begin_git
+- Dry mouth | Constipation | Weight gain
+#+end_git
+
+#+begin_cardiac
+- Orthostatic HoTN | QT prolongation | Arrhythmia
+#+end_cardiac
+
+#+begin_sexual
+- *Urinary retention*
+#+end_sexual
+
+#+begin_endocrine
+- Hyponatraemia | Gynaecomastia
+#+end_endocrine
+
+#+end_sideeffects
+
+#+end_metacard
+
+#+begin_description
+#+end_description
+#+end_slide
+
+#+begin_description
+1. Not first-line, but a role in severe or melancholic depression. [fn:3]
+2. More receptors blocked → more adverse effects!
+   - Note esp. anticholinergic effects
+3. Toxic in overdose. (Antidote is *sodium bicarbonate*)
+4. *Baseline ECG* before beginning.
+#+end_description
+
+* Monoamine Oxidase Inhibitors (MAOIs)
+
+#+begin_slide
+
+#+begin_metacard
+
+#+begin_name
+MAOIs
+#+end_name
+
+#+begin_classification
+Antidepressants
+#+end_classification
+
+[[./notebooks/graphics/maoi.svg]]
+
+#+begin_moa
+Inhibit monoamine oxidase (irreversibly, except for moclobemide), so monoamines increase (*serotonergic*, *noradrenergic*,
+*dopaminergic*).
+#+end_moa
+
+#+begin_warning
+- Phaeochromocytoma? (hypertensive crisis!)
+- Illicit drugs? Serotonin drugs? (serotonin syndrome!)
+- High risk of suicide? (fatal overdoses!)
+- Cheese? Alcohol? Aged foods? (cheese reaction!)
+- Driving or machinery?
+
+#+end_warning
+
+#+begin_sideeffects
+#+begin_cardiac
+- Orthostatic HoTN | Hypertensive crisis (cheese reaction)
+#+end_cardiac
+
+#+begin_cerebral
+- Insomnia | Headache | Drowsiness
+#+end_cerebral
+
+#+begin_git
+- Dry mouth | Weight gain
+#+end_git
+
+#+begin_motor
+- Tremor
+#+end_motor
+
+#+begin_sexual
+- Sexual dysfunction
+#+end_sexual
+
+#+begin_endocrine
+- Hypoglycaemia
+#+end_endocrine
+#+end_sideeffects
+
+#+end_metacard
+
+#+begin_description
+#+end_description
+#+end_slide
+
+#+begin_description
+1. Not first line (though moclobemide is second-line).
+2. Problematic because of many food and drug interactions.
+1. *Hypertensive crisis* - severe occipital headache, rise in BP.
+   1. MAO usually metabolises tyramine in GIT
+   2. When MAO is inhibited, tyramine remains intact
+   3. Intact tyramine is absorbed from GIT into the circulation
+   4. Tyramine → NA → HTN crisis!
+#+end_description
+
+* Template :noexport:
+
+#+begin_slide
+
+#+begin_card
+
+#+begin_name
+#+begin_altname
+#+end_altname
+#+end_name
+
+#+begin_classification
+#+begin_metabolism
+#+end_metabolism
+#+end_classification
+
+[[]]
+
+#+begin_brief
+#+end_brief
+
+#+begin_procons
+
+#+begin_pros
+Good with:
+#+end_pros
+
+#+begin_cons
+Bad with:
+#+end_cons
+
+#+end_procons
+
+#+begin_sideeffects
+#+end_sideeffects
+
+#+end_card
+
+#+begin_description
+#+end_description
+#+end_slide
+
+* Template Meta :noexport:
+
+#+begin_slide
+
+#+begin_metacard
+
+#+begin_name
+#+end_name
+
+#+begin_classification
+#+end_classification
+
+[[]]
+
+#+begin_moa
+#+end_moa
+
+#+begin_warning
+#+end_warning
+
+#+begin_sideeffects
+#+end_sideeffects
+
+#+end_metacard
+
+#+begin_description
+#+end_description
+#+end_slide
+
+#+begin_description
+#+end_description
+
+
+* Footnotes
+
+[fn:3] eTG
+
+[fn:2] Kaplan and Sadock
+
+[fn:1] [[https://amhonline-amh-net-au.ezproxy.lib.monash.edu.au][Australian Medicines Handbook]]
+
+#+begin_fullpage
+
+Two common types of questions:
+
+1. DO CHOOSE THIS
+
+| In [situation needing treatment]...              | ...choose [the IDEAL drug or drug class] |
+|--------------------------------------------------+------------------------------------------|
+| Depressed patient with weight loss and insomnia. | Mirtazepine                              |
+|                                                  |                                          |
+
+
+THE MOST LIKELY CAUSATIVE AGENT
+
+| In [bad situation]... | ...choose [the CULPRIT drug or drug class] |
+|-----------------------+--------------------------------------------|
+|                       |                                            |
+
+#+end_fullpage
+
+#+begin_fullpage
+
+| Prozac   | Fluoxetine   |
+| Lexapro  | Escitalopram |
+| Zoloft   | Sertraline   |
+| Paxil    | Paroxetine   |
+| Celexa   | Citalopram   |
+| Cymbalta | Duloxetine   |
+| Efexor   | Venlafaxine  |
+| Avanza   | Mirtazepine  |
+| Remeron  | Mirtazepine  |
+
+#+end_fullpage

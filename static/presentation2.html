@@ -1,0 +1,1365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2019-05-25 Sat 19:14 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Treatments in Psychiatry</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Jamin Wu" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link href="./main2.css" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap" rel="stylesheet">
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<div class="titleslide">
+<p>
+
+</p>
+
+<div class="title">
+<p>
+Treatments in Psychiatry
+</p>
+
+</div>
+
+<div class="author">
+<p>
+jwu202@student.monash.edu
+</p>
+
+</div>
+
+<div class="descriptor">
+<ul class="org-ul">
+<li><i>Quick</i> overview only. Place in context with other lectures!</li>
+<li>You <i>must</i> practise <b>active recall</b>. You will not remember passively.</li>
+<li>Repeat, repeat, repeat.</li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orge8469d5">Selective Serotonin Reuptake Inhibitors (SSRIs)</a></li>
+<li><a href="#org56fd525">Fluoxetine</a></li>
+<li><a href="#orgf5e8ef0">Serotonin and Noradrenaline Reuptake Inhibitors (SNRIs)</a></li>
+<li><a href="#org3f067b4">Duloxetine</a></li>
+<li><a href="#orgdbfc854">Noradrenergic and Specific Serotonin Antidepressant (NaSSA)</a></li>
+<li><a href="#orgefd54bb">Mirtazepine</a></li>
+<li><a href="#orgd865bc5">Tricyclic Antidepressants</a></li>
+<li><a href="#org48619e7">Monoamine Oxidase Inhibitors (MAOIs)</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge8469d5" class="outline-2">
+<h2 id="orge8469d5">Selective Serotonin Reuptake Inhibitors (SSRIs)</h2>
+<div class="outline-text-2" id="text-orge8469d5">
+<div class="slide">
+<p>
+
+</p>
+
+<div class="metacard">
+<p>
+
+</p>
+
+<div class="name">
+<p>
+SSRIs
+</p>
+
+</div>
+
+<div class="classification">
+<p>
+Antidepressant
+</p>
+
+</div>
+
+
+<div class="figure">
+<p><object type="image/svg+xml" data="./notebooks/graphics/ssri.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
+</p>
+</div>
+
+<div class="moa">
+<p>
+These <i>selectively</i> inhibit serotonin reuptake (it's in the name!),
+so serotonin sticks around longer (<b>serotonergic</b>).
+</p>
+
+</div>
+
+<div class="warning">
+<ul class="org-ul">
+<li>Manic episode history? (mixed state!)</li>
+<li>MAOI in last 14 days? (serotonin syndrome!)</li>
+<li>Driving/heavy machinery? (maybe sleepy!)</li>
+</ul>
+
+</div>
+
+<div class="sideeffects">
+<p>
+
+</p>
+
+<div class="flag">
+<ul class="org-ul">
+<li>Serotonin syndrome</li>
+</ul>
+
+</div>
+
+<div class="sexual">
+<ul class="org-ul">
+<li>Sexual dysfunction</li>
+</ul>
+
+</div>
+
+<div class="git">
+<ul class="org-ul">
+<li>Nausea | Diarrhoea | Dry mouth | Weight gain</li>
+</ul>
+
+</div>
+
+<div class="cerebral">
+<ul class="org-ul">
+<li>Agitation | Insomnia | Drowsiness | Headache | ? Suicidality</li>
+</ul>
+
+</div>
+
+<div class="motor">
+<ul class="org-ul">
+<li>Tremor | Sweating</li>
+</ul>
+
+</div>
+
+<div class="cardiac">
+<ul class="org-ul">
+<li>QT Prolongation</li>
+</ul>
+
+</div>
+
+<div class="endocrine">
+<ul class="org-ul">
+<li>Hyponatraemia</li>
+</ul>
+
+</div>
+
+<div class="blood">
+<ul class="org-ul">
+<li>Bleeding risk</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="description">
+
+</div>
+
+</div>
+
+<div class="description">
+<p>
+
+</p>
+
+<ol class="org-ol">
+<li>First-line treatment for MDD (with SNRIs and mirtazepine).</li>
+<li><p>
+Quick associations
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Drug</th>
+<th scope="col" class="org-left">Associations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Fluoxetine</td>
+<td class="org-left">Longest ½ life, choose for children</td>
+</tr>
+
+<tr>
+<td class="org-left">Paroxetine</td>
+<td class="org-left">Shortest ½ life, birth defects, some anticholinergic,  precipitates angle-closure glaucoma</td>
+</tr>
+
+<tr>
+<td class="org-left">Escitalopram</td>
+<td class="org-left">More selective, QT prolongation, less weight gain, less agitation</td>
+</tr>
+
+<tr>
+<td class="org-left">Citalopram</td>
+<td class="org-left">More selective, QT prolongation</td>
+</tr>
+</tbody>
+</table></li>
+<li><b>Serotonin syndrome</b> is a triad of:
+<ol class="org-ol">
+<li><p>
+Autonomic signs
+</p>
+
+<p>
+("hot and bothered and need the toilet")
+</p></li>
+<li><p>
+Neuromuscular signs
+</p>
+
+<p>
+(tremor, akathisia, hyperreflexia, clonus)
+</p></li>
+<li><p>
+Altered mental status
+</p>
+
+<p>
+(headache, confusion, hypomania, hallucinations)
+</p></li>
+</ol></li>
+</ol>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-org56fd525" class="outline-2">
+<h2 id="org56fd525">Fluoxetine</h2>
+<div class="outline-text-2" id="text-org56fd525">
+<div class="slide">
+<p>
+
+</p>
+
+<div class="card">
+<p>
+
+</p>
+
+<div class="name">
+<p>
+Fluoxetine
+</p>
+<div class="altname">
+<p>
+Prozac, Lovan
+</p>
+
+</div>
+
+</div>
+
+
+<div class="classification">
+<p>
+SSRI
+</p>
+<div class="metabolism">
+<p>
+Hepatic metabolism
+</p>
+
+</div>
+
+</div>
+
+
+<div class="figure">
+<p><object type="image/svg+xml" data="./notebooks/graphics/fluoxetine.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
+</p>
+</div>
+
+<div class="brief">
+<p>
+
+</p>
+
+</div>
+
+<div class="procons">
+<p>
+
+</p>
+
+<div class="pros">
+<p>
+Used for:
+</p>
+<ul class="org-ul">
+<li><b>MDD</b></li>
+<li>OCD</li>
+<li>Bulimia</li>
+<li>Premenstrual dysphoric disorder</li>
+</ul>
+
+</div>
+
+<div class="cons">
+<p>
+Bad with:
+</p>
+<ul class="org-ul">
+<li><p>
+Hepatic impairment
+</p>
+
+<p>
+(hepatic metabolism)
+</p></li>
+<li>CYP-interacting drugs</li>
+<li><p>
+Breastfeeding
+</p>
+
+<p>
+(long half-life)
+</p></li>
+</ul>
+
+</div>
+
+</div>
+
+<p>
+Has <b>all the side effects of SSRIs</b>, and:
+</p>
+
+<div class="sideeffects">
+<div class="git">
+<ul class="org-ul">
+<li>Anorexia | Initial weight loss</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="description">
+<p>
+
+</p>
+
+<ol class="org-ol">
+<li>Fluoxetine is the SSRI of choice in children. <sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup></li>
+<li>Fluoxetine has a long half-life (~ 16 days). <sup><a id="fnr.1.100" class="footref" href="#fn.1">1</a></sup>
+<ul class="org-ul">
+<li>∵ Produces long-living active metabolite (norfluoxetine).</li>
+<li>Effects may linger after you stop it.</li>
+<li>Withdrawal symptoms are less common.</li>
+</ul></li>
+</ol>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf5e8ef0" class="outline-2">
+<h2 id="orgf5e8ef0">Serotonin and Noradrenaline Reuptake Inhibitors (SNRIs)</h2>
+<div class="outline-text-2" id="text-orgf5e8ef0">
+<div class="slide">
+<p>
+
+</p>
+
+<div class="metacard">
+<p>
+
+</p>
+
+<div class="name">
+<p>
+SNRIs
+</p>
+
+</div>
+
+<div class="classification">
+<p>
+Antidepressant
+</p>
+
+</div>
+
+
+<div class="figure">
+<p><object type="image/svg+xml" data="./notebooks/graphics/snri.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
+</p>
+</div>
+
+<div class="moa">
+<p>
+These inhibit both <b>serotonin</b> and <b>noradrenaline</b> reuptake (it's also in the
+name) - <b>serotonergic</b> and <b>noradrenergic</b>.
+</p>
+
+</div>
+
+<div class="warning">
+<ul class="org-ul">
+<li>Manic episode history? (mixed state!)</li>
+<li>MAOI in last 14 days? (serotonin syndrome!)</li>
+<li>Driving/heavy machinery? (maybe sleepy!)</li>
+<li>Heart disease? (tachycardia, palpitations, ↑BP)</li>
+</ul>
+
+</div>
+
+<div class="sideeffects">
+<div class="git">
+<ul class="org-ul">
+<li>Nausea | Decreased appetite | Dry mouth | Constipation</li>
+</ul>
+
+</div>
+<div class="cerebral">
+<ul class="org-ul">
+<li>Dizziness | Headache | Insomnia or Somnolence | Blurred vision | ? Suicidality</li>
+</ul>
+
+</div>
+<div class="motor">
+<ul class="org-ul">
+<li>Tremor</li>
+</ul>
+
+</div>
+<div class="cardiac">
+<ul class="org-ul">
+<li>Palpitations | HTN | Orthostatic HoTN | Takotsubo</li>
+</ul>
+
+</div>
+
+<div class="endocrine">
+<ul class="org-ul">
+<li>Hyponatraemia</li>
+</ul>
+
+</div>
+
+<div class="sexual">
+<ul class="org-ul">
+<li>Sexual dysfunction</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="description">
+
+</div>
+
+</div>
+
+<div class="description">
+<ol class="org-ol">
+<li>First line for MDD (with SSRIs and mirtazepine)</li>
+<li><p>
+Check BP before treating
+</p>
+
+<p>
+Noradrenergic → ↑ BP
+</p></li>
+</ol>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-org3f067b4" class="outline-2">
+<h2 id="org3f067b4">Duloxetine</h2>
+<div class="outline-text-2" id="text-org3f067b4">
+<div class="slide">
+<p>
+
+</p>
+
+<div class="card">
+<p>
+
+</p>
+
+<div class="name">
+<p>
+Duloxetine
+</p>
+<div class="altname">
+<p>
+Cymbalta, Andepra
+</p>
+
+</div>
+
+</div>
+
+<div class="classification">
+<p>
+SNRI
+</p>
+<div class="metabolism">
+<p>
+Hepatic + renal
+</p>
+
+</div>
+
+</div>
+
+
+<div class="figure">
+<p><object type="image/svg+xml" data="./notebooks/graphics/duloxetine.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
+</p>
+</div>
+
+<div class="brief">
+
+</div>
+
+<div class="procons">
+<p>
+
+</p>
+
+<div class="pros">
+<p>
+Used for:
+</p>
+<ul class="org-ul">
+<li><b>MDD</b></li>
+<li>Painful diabetic neuropathy</li>
+<li>Generalised anxiety disorder</li>
+</ul>
+
+</div>
+
+<div class="cons">
+<p>
+Bad with:
+</p>
+<ul class="org-ul">
+<li>Hepatic impairment (contraindicated)</li>
+</ul>
+
+</div>
+
+</div>
+
+<p>
+All the side effects of SNRIs, plus
+</p>
+
+<div class="sideeffects">
+<div class="sexual">
+<ul class="org-ul">
+<li>Urinary retention</li>
+</ul>
+
+</div>
+<div class="git">
+<ul class="org-ul">
+<li>Liver failure</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="description">
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgdbfc854" class="outline-2">
+<h2 id="orgdbfc854">Noradrenergic and Specific Serotonin Antidepressant (NaSSA)</h2>
+<div class="outline-text-2" id="text-orgdbfc854">
+<div class="slide">
+<p>
+
+</p>
+
+<div class="metacard">
+<p>
+
+</p>
+
+<div class="name">
+<p>
+NaSSA / Tetracyclic Antidepressants
+</p>
+
+</div>
+
+<div class="classification">
+<p>
+Antidepressant
+</p>
+
+</div>
+
+
+<div class="figure">
+<p><object type="image/svg+xml" data="./notebooks/graphics/NaSSa.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
+</p>
+</div>
+
+<div class="moa">
+<p>
+Blocks <i>presynaptic</i> α<sub>2</sub> adrenoreceptor (<b>noradrenergic</b> and indirectly <b>serotonergic</b>), blocks postsynaptic
+5HT<sub>2</sub> and 5HT<sub>3</sub>, and blocks H<sub>1</sub> (<b>antihistaminergic</b>).
+</p>
+
+</div>
+
+<div class="warning">
+<ul class="org-ul">
+<li>Manic episode history? (mixed state!)</li>
+<li>MAOI in last 14 days? (serotonin syndrome!)</li>
+<li>Driving/heavy machinery? (maybe sleepy!)</li>
+</ul>
+
+</div>
+
+<div class="sideeffects">
+<p>
+
+</p>
+
+<div class="cerebral">
+<ul class="org-ul">
+<li>Sedation</li>
+</ul>
+
+</div>
+
+<div class="git">
+<ul class="org-ul">
+<li>Increased appetite</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="description">
+
+</div>
+
+</div>
+
+<div class="description">
+<ol class="org-ol">
+<li>Quick comparison:
+<dl class="org-dl">
+<dt>Mirtazepine</dt><dd>One of the 1st-line treatments for depression, sedation
+(50%) and weight gain (30%) is common.<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup></dd>
+<dt>Sedation</dt><dd>Mianserin is common, weight gain less so. <b>Beware
+agranulocytosis</b> (need FBC before treatment).</dd>
+</dl></li>
+</ol>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgefd54bb" class="outline-2">
+<h2 id="orgefd54bb">Mirtazepine</h2>
+<div class="outline-text-2" id="text-orgefd54bb">
+<div class="slide">
+<p>
+
+</p>
+
+<div class="card">
+<p>
+
+</p>
+
+<div class="name">
+<p>
+Mirtazepine
+</p>
+<div class="altname">
+<p>
+Avanza, Remeron
+</p>
+
+</div>
+
+</div>
+
+<div class="classification">
+<p>
+NaSSA / Tetracyclic Antidepressant
+</p>
+<div class="metabolism">
+
+</div>
+
+</div>
+
+
+<div class="figure">
+<p><object type="image/svg+xml" data="./notebooks/graphics/mirtazepine.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
+</p>
+</div>
+
+<div class="brief">
+
+</div>
+
+<div class="procons">
+<p>
+
+</p>
+
+<div class="pros">
+<p>
+Used for:
+</p>
+<ul class="org-ul">
+<li>MDD</li>
+</ul>
+
+</div>
+
+<div class="cons">
+<p>
+Bad with:
+</p>
+<ul class="org-ul">
+<li>Allergy to mianserin</li>
+<li></li>
+</ul>
+
+</div>
+
+</div>
+
+<div class="sideeffects">
+<p>
+
+</p>
+
+<div class="cerebral">
+<ul class="org-ul">
+<li><b>SEDATION</b></li>
+</ul>
+
+</div>
+
+<div class="git">
+<ul class="org-ul">
+<li><b>INCREASED APPETITE</b></li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="description">
+<p>
+
+</p>
+
+<ol class="org-ol">
+<li><b>Mirtazepine</b> is first-line for MDD (along with SSRIs and SNRIs).</li>
+<li>Unlike SSRIs, mirtazepine is:
+<ul class="org-ul">
+<li>Sedating (so given at night)</li>
+<li>Appetite-stimulating (weight gain!)</li>
+<li>Associated with less nausea (5HT<sub>3</sub>)</li>
+</ul></li>
+<li>Useful for patients with insomnia and low appetite, weight loss!</li>
+</ol>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd865bc5" class="outline-2">
+<h2 id="orgd865bc5">Tricyclic Antidepressants</h2>
+<div class="outline-text-2" id="text-orgd865bc5">
+<div class="slide">
+<p>
+
+</p>
+
+<div class="metacard">
+<p>
+
+</p>
+
+<div class="name">
+<p>
+TCAs
+</p>
+
+</div>
+
+<div class="classification">
+<p>
+Antidepressant
+</p>
+
+</div>
+
+
+<div class="figure">
+<p><object type="image/svg+xml" data="./notebooks/graphics/tca.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
+</p>
+</div>
+
+<div class="moa">
+<p>
+Inihibit serotonin and noradrenaline reuptake (<b>serotonergic</b> and
+<b>noradrenergic</b>). Also <b>anti-cholinergic</b>, <b>anti-histaminergic</b> and
+<b>α<sub>1</sub>-adrenergic</b>.
+</p>
+
+</div>
+
+<div class="warning">
+<ul class="org-ul">
+<li>Prostatic hypertrophy? (urinary retention!)</li>
+<li>Cardiac disease? (arrhythmia, prolong QT, angina!)</li>
+<li>High risk suicide? (fatal overdoses!)</li>
+<li>Manic episode history? (mixed state!)</li>
+<li>Driving or operating heavy machinery?</li>
+</ul>
+
+</div>
+
+<div class="sideeffects">
+<div class="cerebral">
+<ul class="org-ul">
+<li>Blurred vision |  Dry eyes | Anticholinergic delirium |
+Dizziness | Insomnia</li>
+</ul>
+
+</div>
+
+<div class="git">
+<ul class="org-ul">
+<li>Dry mouth | Constipation | Weight gain</li>
+</ul>
+
+</div>
+
+<div class="cardiac">
+<ul class="org-ul">
+<li>Orthostatic HoTN | QT prolongation | Arrhythmia</li>
+</ul>
+
+</div>
+
+<div class="sexual">
+<ul class="org-ul">
+<li><b>Urinary retention</b></li>
+</ul>
+
+</div>
+
+<div class="endocrine">
+<ul class="org-ul">
+<li>Hyponatraemia | Gynaecomastia</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="description">
+
+</div>
+
+</div>
+
+<div class="description">
+<ol class="org-ol">
+<li>Not first-line, but a role in severe or melancholic depression. <sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup></li>
+<li>More receptors blocked → more adverse effects!
+<ul class="org-ul">
+<li>Note esp. anticholinergic effects</li>
+</ul></li>
+<li>Toxic in overdose. (Antidote is <b>sodium bicarbonate</b>)</li>
+<li><b>Baseline ECG</b> before beginning.</li>
+</ol>
+
+</div>
+</div>
+</div>
+
+<div id="outline-container-org48619e7" class="outline-2">
+<h2 id="org48619e7">Monoamine Oxidase Inhibitors (MAOIs)</h2>
+<div class="outline-text-2" id="text-org48619e7">
+<div class="slide">
+<p>
+
+</p>
+
+<div class="metacard">
+<p>
+
+</p>
+
+<div class="name">
+<p>
+MAOIs
+</p>
+
+</div>
+
+<div class="classification">
+<p>
+Antidepressants
+</p>
+
+</div>
+
+
+<div class="figure">
+<p><object type="image/svg+xml" data="./notebooks/graphics/maoi.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
+</p>
+</div>
+
+<div class="moa">
+<p>
+Inhibit monoamine oxidase (irreversibly, except for moclobemide), so monoamines increase (<b>serotonergic</b>, <b>noradrenergic</b>,
+<b>dopaminergic</b>).
+</p>
+
+</div>
+
+<div class="warning">
+<ul class="org-ul">
+<li>Phaeochromocytoma? (hypertensive crisis!)</li>
+<li>Illicit drugs? Serotonin drugs? (serotonin syndrome!)</li>
+<li>High risk of suicide? (fatal overdoses!)</li>
+<li>Cheese? Alcohol? Aged foods? (cheese reaction!)</li>
+<li>Driving or machinery?</li>
+</ul>
+
+</div>
+
+<div class="sideeffects">
+<div class="cardiac">
+<ul class="org-ul">
+<li>Orthostatic HoTN | Hypertensive crisis (cheese reaction)</li>
+</ul>
+
+</div>
+
+<div class="cerebral">
+<ul class="org-ul">
+<li>Insomnia | Headache | Drowsiness</li>
+</ul>
+
+</div>
+
+<div class="git">
+<ul class="org-ul">
+<li>Dry mouth | Weight gain</li>
+</ul>
+
+</div>
+
+<div class="motor">
+<ul class="org-ul">
+<li>Tremor</li>
+</ul>
+
+</div>
+
+<div class="sexual">
+<ul class="org-ul">
+<li>Sexual dysfunction</li>
+</ul>
+
+</div>
+
+<div class="endocrine">
+<ul class="org-ul">
+<li>Hypoglycaemia</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="description">
+
+</div>
+
+</div>
+
+<div class="description">
+<ol class="org-ol">
+<li>Not first line (though moclobemide is second-line).</li>
+<li>Problematic because of many food and drug interactions.</li>
+<li><b>Hypertensive crisis</b> - severe occipital headache, rise in BP.
+<ol class="org-ol">
+<li>MAO usually metabolises tyramine in GIT</li>
+<li>When MAO is inhibited, tyramine remains intact</li>
+<li>Intact tyramine is absorbed from GIT into the circulation</li>
+<li>Tyramine → NA → HTN crisis!</li>
+</ol></li>
+</ol>
+
+</div>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara"><p class="footpara">
+<a href="https://amhonline-amh-net-au.ezproxy.lib.monash.edu.au">Australian Medicines Handbook</a>
+</p>
+
+<p class="footpara">
+#+begin<sub>fullpage</sub>
+</p>
+
+<p class="footpara">
+Two common types of questions:
+</p>
+
+<ol class="org-ol">
+<li>DO CHOOSE THIS</li>
+</ol>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">In [situation needing treatment]&#x2026;</th>
+<th scope="col" class="org-left">&#x2026;choose [the IDEAL drug or drug class]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Depressed patient with weight loss and insomnia.</td>
+<td class="org-left">Mirtazepine</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table></div></div>
+
+<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> <div class="footpara"><p class="footpara">
+Kaplan and Sadock
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.3" class="footnum" href="#fnr.3">3</a></sup> <div class="footpara"><p class="footpara">
+eTG
+</p></div></div>
+
+
+</div>
+</div></div>
+</body>
+</html>

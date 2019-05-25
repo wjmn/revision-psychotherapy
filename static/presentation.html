@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2019-05-25 Sat 01:50 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Treatments in Psychiatry</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="jwu202 at student dot monash dot edu" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link href="./main.css" rel="stylesheet">\n<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap" rel="stylesheet">
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Treatments in Psychiatry</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org0776fb6">Introduction</a></li>
+<li><a href="#orga350a73">Biological Therapies</a>
+<ul>
+<li><a href="#org4b73e95">Neurotransmitters</a>
+<ul>
+<li><a href="#org9bb0c85">Serotonin (aka 5-HT)</a></li>
+<li><a href="#orgb9b7af1">Dopamine</a></li>
+<li><a href="#orgef0463c">Noradrenaline</a></li>
+<li><a href="#orgd650b72">Acetylcholine</a></li>
+<li><a href="#org4f0e61f">Histamine</a></li>
+<li><a href="#org4051418">Glutamate</a></li>
+<li><a href="#org0f3faca">GABA</a></li>
+</ul>
+</li>
+<li><a href="#org2c7c9e1">Antidepressants</a>
+<ul>
+<li><a href="#orgd6746cd">TCAs</a></li>
+<li><a href="#orgd11958f">MAOIs</a></li>
+<li><a href="#orge3cb5ee">SSRIs</a></li>
+</ul>
+</li>
+<li><a href="#org9434687">Mood stabilisers</a>
+<ul>
+<li><a href="#org6a7e287">Lithium</a></li>
+<li><a href="#orgf4463bc">Valproate</a></li>
+<li><a href="#orgbaa1443">Lamotrigine</a></li>
+<li><a href="#org8993d1d">Carbemazapine</a></li>
+</ul>
+</li>
+<li><a href="#orgb3394a5">Antipsychotics</a></li>
+<li><a href="#org95ef3a7">Sedatives</a></li>
+<li><a href="#org52ba8d4">Neurostimulation</a></li>
+</ul>
+</li>
+<li><a href="#orgca2549b">Psychological</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org0776fb6" class="outline-2 slide">
+<h2 id="org0776fb6">Introduction</h2>
+<div class="outline-text-2" id="text-org0776fb6">
+
+<div class="figure">
+<p><object type="image/svg+xml" data="./notebooks/graphics/contents.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
+</p>
+</div>
+
+<p>
+Objective of this lecture is to <i>introduce</i> some treatment tools to your toolkit.
+</p>
+
+<p>
+We will briefly cover the treatments in your matrix, including:
+</p>
+
+<ol class="org-ol">
+<li>Biological therapies (medications + interventional)</li>
+<li>Psychotherapy</li>
+</ol>
+
+<p>
+Tips:
+</p>
+<ol class="org-ol">
+<li>Practise <b>active</b> recall. You will not remember this information passively!</li>
+<li>See as much in real life as possible.</li>
+<li>Review and repeat, it's super easy to forget details.</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-orga350a73" class="outline-2 slide">
+<h2 id="orga350a73">Biological Therapies</h2>
+<div class="outline-text-2" id="text-orga350a73">
+
+<div class="figure">
+<p><object type="image/svg+xml" data="./notebooks/graphics/biological.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
+</p>
+</div>
+
+<p>
+Typically affect <b>neurotransmitters</b> in the brain:
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Agonist</td>
+<td class="org-left">Mimics the neurotransmitter at the receptor: ↑</td>
+</tr>
+
+<tr>
+<td class="org-left">Antagonist</td>
+<td class="org-left">Blocks the neurotransmitter at the receptor: ↓</td>
+</tr>
+
+<tr>
+<td class="org-left">Partial agonist</td>
+<td class="org-left">Mimics the neurotransmitter at the receptor when neurotransmitter concentrations are low.</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div id="outline-container-org4b73e95" class="outline-3 slide">
+<h3 id="org4b73e95">Neurotransmitters</h3>
+<div class="outline-text-3" id="text-org4b73e95">
+
+<div class="figure">
+<p><object type="image/svg+xml" data="./notebooks/graphics/transmitters.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
+</p>
+</div>
+
+<ul class="org-ul">
+<li>Neurotransmitters are released by neurons in the brain into synapses, where
+other neurons can pick them up through receptors.</li>
+</ul>
+
+<p>
+Some groupings:
+</p>
+
+<dl class="org-dl">
+<dt>Monoamines</dt><dd>Comprises <b>serotonin</b>, <b>noradrenaline</b> and <b>dopamine</b>. (SAD, if
+you remember it's NORadrenaline and not adrenaline!)</dd>
+</dl>
+</div>
+
+
+<div id="outline-container-org9bb0c85" class="outline-4 slide">
+<h4 id="org9bb0c85">Serotonin (aka 5-HT)</h4>
+<div class="outline-text-4" id="text-org9bb0c85">
+
+<div class="figure">
+<p><object type="image/svg+xml" data="./notebooks/graphics/serotonin-source.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
+</p>
+</div>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Source</td>
+<td class="org-left">Raphe nuclei.</td>
+</tr>
+
+<tr>
+<td class="org-left">Destination</td>
+<td class="org-left">&#x2026;too many to name.</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>
+Seven families of receptors.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Receptor</th>
+<th scope="col" class="org-left">Association</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">5HT<sub>1</sub></td>
+<td class="org-left">Migraine, pain. (agonists are anti-migraine e.g. sumatriptan)</td>
+</tr>
+
+<tr>
+<td class="org-left">5HT<sub>2</sub></td>
+<td class="org-left">Weight gain.</td>
+</tr>
+
+<tr>
+<td class="org-left">5HT<sub>3</sub></td>
+<td class="org-left">Nausea, vomiting. (antagonists are antiemetics e.g. ondansetron)</td>
+</tr>
+
+<tr>
+<td class="org-left">5HT<sub>4</sub></td>
+<td class="org-left">GI motility (agoists are prokinetic e.g. cisapride).</td>
+</tr>
+
+<tr>
+<td class="org-left">5HT<sub>5</sub></td>
+<td class="org-left">?</td>
+</tr>
+
+<tr>
+<td class="org-left">5HT<sub>6</sub></td>
+<td class="org-left">?</td>
+</tr>
+
+<tr>
+<td class="org-left">5HT<sub>7</sub></td>
+<td class="org-left">Thermoregulation, circadian rhythm, cognition.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-orgb9b7af1" class="outline-4 slide">
+<h4 id="orgb9b7af1">Dopamine</h4>
+<div class="outline-text-4" id="text-orgb9b7af1">
+
+<div class="figure">
+<p><object type="image/svg+xml" data="./notebooks/graphics/dopamine-source.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
+</p>
+</div>
+
+<p>
+There are <b>four</b> main dopamine pathways in the brain.
+</p>
+
+<div class="small">
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Pathway</th>
+<th scope="col" class="org-left">Source</th>
+<th scope="col" class="org-left">Destination</th>
+<th scope="col" class="org-left">Association</th>
+<th scope="col" class="org-left">Pathology</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Nigrostriatal</td>
+<td class="org-left">SN</td>
+<td class="org-left">Dorsal striatum</td>
+<td class="org-left">Movement</td>
+<td class="org-left">↓ ⇒ PD</td>
+</tr>
+
+<tr>
+<td class="org-left">Mesocortical</td>
+<td class="org-left">VTA</td>
+<td class="org-left">Cortex esp. frontal</td>
+<td class="org-left">Attention</td>
+<td class="org-left">↑ ⇒ -ve symptoms schizophrenia (?)</td>
+</tr>
+
+<tr>
+<td class="org-left">Mesolimbic</td>
+<td class="org-left">VTA</td>
+<td class="org-left">NA + ventral striatum</td>
+<td class="org-left">Reward</td>
+<td class="org-left">↑ ⇒ +ve symptoms schizophrenia (?)</td>
+</tr>
+
+<tr>
+<td class="org-left">Tuberoinfundibular</td>
+<td class="org-left">Hypothalamus</td>
+<td class="org-left">Pituitary stalk</td>
+<td class="org-left">"Don't lactate"</td>
+<td class="org-left">↓ ⇒ galactorrhoea</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+SN = substantia nigra, PD = Parkinson's disease, VTA = ventral tegmental area
+</p>
+
+</div>
+
+<p>
+There are <b>five</b> dopamine receptors (D<sub>1</sub> to D<sub>5</sub>), distributed throughout the
+pathways at varying concentrations.
+</p>
+
+<p>
+<b>D<sub>2</sub></b> is the main target of antipsychotics.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgef0463c" class="outline-4 slide">
+<h4 id="orgef0463c">Noradrenaline</h4>
+<div class="outline-text-4" id="text-orgef0463c">
+
+<div class="figure">
+<p><object type="image/svg+xml" data="./notebooks/graphics/noradrenaline-source.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
+</p>
+</div>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Source</td>
+<td class="org-left">Locus coeruleus</td>
+</tr>
+
+<tr>
+<td class="org-left">Destination</td>
+<td class="org-left">&#x2026;too many to name.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-orgd650b72" class="outline-4 slide">
+<h4 id="orgd650b72">Acetylcholine</h4>
+<div class="outline-text-4" id="text-orgd650b72">
+</div>
+</div>
+
+<div id="outline-container-org4f0e61f" class="outline-4 slide">
+<h4 id="org4f0e61f">Histamine</h4>
+<div class="outline-text-4" id="text-org4f0e61f">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Source</td>
+<td class="org-left">Tuberomamillary complex in posterior hypothalamus</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Functions:
+</p>
+<ul class="org-ul">
+<li>Sleep/arousal</li>
+<li>Feeding and appetite</li>
+<li>(In the periphery) - allergy</li>
+</ul>
+
+<p>
+Four receptors:
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Receptor</th>
+<th scope="col" class="org-left">Association</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">H<sub>1</sub></td>
+<td class="org-left">Sedation, vertigo (caused by blockade e.g. from clozapine, doxepin, or even diphenhydramine)</td>
+</tr>
+
+<tr>
+<td class="org-left">H<sub>2</sub></td>
+<td class="org-left">? in CNS (antagonists not crossing BBB e.g. ranitidine used for peptic ulcer disease)</td>
+</tr>
+
+<tr>
+<td class="org-left">H<sub>3</sub></td>
+<td class="org-left">Sediation? (inverse agonist maybe for narcolepsy, pitolisant)</td>
+</tr>
+
+<tr>
+<td class="org-left">H<sub>4</sub></td>
+<td class="org-left">Mostly peripheral.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org4051418" class="outline-4 slide">
+<h4 id="org4051418">Glutamate</h4>
+<div class="outline-text-4" id="text-org4051418">
+<ul class="org-ul">
+<li>Dominant excitatory neurotransmitter in the brain</li>
+<li>Receptors
+<ul class="org-ul">
+<li>NMDA</li>
+<li>AMPA</li>
+<li>KA</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org0f3faca" class="outline-4 slide">
+<h4 id="org0f3faca">GABA</h4>
+<div class="outline-text-4" id="text-org0f3faca">
+<ul class="org-ul">
+<li>Dominant inhibitory neurotransitterin the brain</li>
+</ul>
+
+<p>
+Relevance:
+</p>
+<ul class="org-ul">
+<li>Alcohol enhances GABA and reduces NMDA ⇒ anxiolytic effects</li>
+<li>Alcohol abuse causes compensatory decrease in GABA receptors and increase in
+NMDA receptors ⇒ hyperexcitable state, continuously dulled by alcohol</li>
+<li>When alcohol is withdrawn, suddenly no dulling ⇒ hyperexcitable state
+manifests as <i>delirium tremens</i></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org2c7c9e1" class="outline-3 slide">
+<h3 id="org2c7c9e1">Antidepressants</h3>
+<div class="outline-text-3" id="text-org2c7c9e1">
+
+<div class="figure">
+<p><object type="image/svg+xml" data="./notebooks/graphics/antidepressants.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd6746cd" class="outline-4 slide">
+<h4 id="orgd6746cd">TCAs</h4>
+<div class="outline-text-4" id="text-orgd6746cd">
+
+<div class="figure">
+<p><object type="image/svg+xml" data="./notebooks/graphics/tca.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
+</p>
+</div>
+
+<ul class="org-ul">
+<li>Tricyclic antidepressants</li>
+<li>Severe or melancholic depression</li>
+<li>Block ALL the monoamines, AND anticholinergic and antihistaminergic</li>
+</ul>
+
+
+<p>
+AE
+</p>
+<ul class="org-ul">
+<li>Anticholinergic effects (things stop flowing)</li>
+<li>Orthostatic hypotension</li>
+<li>Sexual dysfunction</li>
+<li>Weight gain</li>
+<li>Sedation</li>
+<li>QRS prolongation (so baseline ECG before starting a TCA)</li>
+<li></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgd11958f" class="outline-4">
+<h4 id="orgd11958f">MAOIs</h4>
+<div class="outline-text-4" id="text-orgd11958f">
+<ul class="org-ul">
+<li>Monoamine oxidase inhibitors</li>
+<li>Slows down breakdown of monoamines (serotonin, noradrenaline, dopamine)</li>
+<li></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge3cb5ee" class="outline-4 slide">
+<h4 id="orge3cb5ee">SSRIs</h4>
+<div class="outline-text-4" id="text-orge3cb5ee">
+
+<div class="figure">
+<p><object type="image/svg+xml" data="./notebooks/graphics/ssri.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
+</p>
+</div>
+
+<ul class="org-ul">
+<li><b>Selective</b> serotonin reuptake inhibitors.</li>
+<li><b>First line</b> pharmacological treatment of depression (with SNRIs and
+mirtazepine)</li>
+<li>Assess response after <b>2-4</b> weeks (it can take time!)</li>
+</ul>
+
+
+<p>
+AE:
+</p>
+<ul class="org-ul">
+<li>Bleeding (reduces serotonin uptake in platelets) - so beware with NSAID,
+anticoagulants etc.</li>
+<li>Hyponatraemia (beware hot weather, diuretics, impaired renal function)</li>
+<li>Agitation</li>
+<li>Nausea, anorexia, diarrhoea, abdominal discomfort</li>
+<li>Insomnia (maybe less so if given in the morning)</li>
+<li>Orthostatic hypotension</li>
+<li>Sedation</li>
+<li>Sexual dysfunction</li>
+<li>Weight gain</li>
+</ul>
+
+
+<p>
+Some easy heuristics:
+</p>
+
+<dl class="org-dl">
+<dt>Fluoxetine is the SSRI of choice for teenagers.</dt><dd></dd>
+
+<dt>(no term)</dt><dd></dd>
+</dl>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org9434687" class="outline-3">
+<h3 id="org9434687">Mood stabilisers</h3>
+<div class="outline-text-3" id="text-org9434687">
+</div>
+<div id="outline-container-org6a7e287" class="outline-4">
+<h4 id="org6a7e287">Lithium</h4>
+<div class="outline-text-4" id="text-org6a7e287">
+<ul class="org-ul">
+<li>Measure lithium concentrations 8-12 hours after last dose</li>
+<li>Therapeutic levels 0.6-0.8mmol/L</li>
+<li>Renal excretion</li>
+<li>Prior to starting: asess kidney, thyroid and parathyroid</li>
+<li>WHen stable, measure serum lithium every 3-6 months</li>
+<li>Measure renal function every 3-6 months</li>
+<li>Monitor thyroid function every 6-12 months</li>
+<li>Monitor calcium every 12 months (PTH if calcium is raised)</li>
+</ul>
+
+<p>
+AE: GAIT
+</p>
+<ul class="org-ul">
+<li>Gastrointestinal</li>
+<li>Ataxia</li>
+<li>Impaired gait</li>
+<li>Fine tremor</li>
+<li>Hypothyroidism</li>
+<li>Diabetes insipidus</li>
+<li>Memory impairment/cognitive difficulties</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf4463bc" class="outline-4">
+<h4 id="orgf4463bc">Valproate</h4>
+</div>
+<div id="outline-container-orgbaa1443" class="outline-4">
+<h4 id="orgbaa1443">Lamotrigine</h4>
+<div class="outline-text-4" id="text-orgbaa1443">
+<ul class="org-ul">
+<li>Beware Steven's Johnson's syndrome</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org8993d1d" class="outline-4">
+<h4 id="org8993d1d">Carbemazapine</h4>
+</div>
+</div>
+<div id="outline-container-orgb3394a5" class="outline-3">
+<h3 id="orgb3394a5">Antipsychotics</h3>
+</div>
+<div id="outline-container-org95ef3a7" class="outline-3">
+<h3 id="org95ef3a7">Sedatives</h3>
+</div>
+<div id="outline-container-org52ba8d4" class="outline-3">
+<h3 id="org52ba8d4">Neurostimulation</h3>
+</div>
+</div>
+<div id="outline-container-orgca2549b" class="outline-2 slide">
+<h2 id="orgca2549b">Psychological</h2>
+<div class="outline-text-2" id="text-orgca2549b">
+<div class="case">
+<p>
+
+</p>
+
+<div class="card">
+<p>
+
+</p>
+
+<p>
+This is a test of the case. There was a known person and <b>before</b> he tried, he
+couldn't find it.
+</p>
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,288 @@
+#+TITLE: Treatments in Psychiatry
+#+AUTHOR: jwu202 at student dot monash dot edu
+#+OPTIONS: toc:3 postamble:nil num:nil author:true
+#+HTML_HEAD: <link href="./main.css" rel="stylesheet">\n<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap" rel="stylesheet">
+
+* Introduction
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: slide
+:END:
+
+[[./notebooks/graphics/contents.svg]]
+
+Objective of this lecture is to /introduce/ some treatment tools to your toolkit.
+
+We will briefly cover the treatments in your matrix, including:
+
+1. Biological therapies (medications + interventional)
+2. Psychotherapy
+
+Tips:
+1. Practise *active* recall. You will not remember this information passively!
+2. See as much in real life as possible.
+3. Review and repeat, it's super easy to forget details.
+
+* Biological Therapies
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: slide
+:END:
+
+[[./notebooks/graphics/biological.svg]]
+
+Typically affect *neurotransmitters* in the brain:
+
+| Agonist         | Mimics the neurotransmitter at the receptor: ↑                                            |
+| Antagonist      | Blocks the neurotransmitter at the receptor: ↓                                            |
+| Partial agonist | Mimics the neurotransmitter at the receptor when neurotransmitter concentrations are low. |
+
+** Neurotransmitters
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: slide
+:END:
+
+[[./notebooks/graphics/transmitters.svg]]
+
+- Neurotransmitters are released by neurons in the brain into synapses, where
+  other neurons can pick them up through receptors.
+
+Some groupings:
+
+- Monoamines :: Comprises *serotonin*, *noradrenaline* and *dopamine*. (SAD, if
+     you remember it's NORadrenaline and not adrenaline!)
+
+
+*** Serotonin (aka 5-HT)
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: slide
+:END:
+
+[[./notebooks/graphics/serotonin-source.svg]]
+
+| Source      | Raphe nuclei.        |
+| Destination | ...too many to name. |
+
+
+Seven families of receptors.
+
+| Receptor | Association                                                      |
+|----------+------------------------------------------------------------------|
+| 5HT_1    | Migraine, pain. (agonists are anti-migraine e.g. sumatriptan)    |
+| 5HT_2    | Weight gain.                                                     |
+| 5HT_3    | Nausea, vomiting. (antagonists are antiemetics e.g. ondansetron) |
+| 5HT_4    | GI motility (agoists are prokinetic e.g. cisapride).             |
+| 5HT_5    | ?                                                                |
+| 5HT_6    | ?                                                                |
+| 5HT_7    | Thermoregulation, circadian rhythm, cognition.                   |
+
+*** Dopamine
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: slide
+:END:
+
+[[./notebooks/graphics/dopamine-source.svg]]
+
+There are *four* main dopamine pathways in the brain.
+
+#+HTML: <div class="small">
+
+| Pathway            | Source       | Destination           | Association     | Pathology                          |
+|--------------------+--------------+-----------------------+-----------------+------------------------------------|
+| Nigrostriatal      | SN           | Dorsal striatum       | Movement        | ↓ ⇒ PD                             |
+| Mesocortical       | VTA          | Cortex esp. frontal   | Attention       | ↑ ⇒ -ve symptoms schizophrenia (?) |
+| Mesolimbic         | VTA          | NA + ventral striatum | Reward          | ↑ ⇒ +ve symptoms schizophrenia (?) |
+| Tuberoinfundibular | Hypothalamus | Pituitary stalk       | "Don't lactate" | ↓ ⇒ galactorrhoea                  |
+
+SN = substantia nigra, PD = Parkinson's disease, VTA = ventral tegmental area
+
+#+HTML: </div>
+
+There are *five* dopamine receptors (D_1 to D_5), distributed throughout the
+pathways at varying concentrations.
+
+*D_2* is the main target of antipsychotics.
+
+*** Noradrenaline
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: slide
+:END:
+
+[[./notebooks/graphics/noradrenaline-source.svg]]
+
+| Source | Locus coeruleus |
+| Destination | ...too many to name. |
+
+*** Acetylcholine
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: slide
+:END:
+
+*** Histamine
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: slide
+:END:
+
+| Source | Tuberomamillary complex in posterior hypothalamus |
+|        |                                                   |
+
+Functions:
+- Sleep/arousal
+- Feeding and appetite
+- (In the periphery) - allergy
+
+Four receptors:
+
+| Receptor | Association                                                                                  |
+|----------+----------------------------------------------------------------------------------------------|
+| H_1      | Sedation, vertigo (caused by blockade e.g. from clozapine, doxepin, or even diphenhydramine) |
+| H_2      | ? in CNS (antagonists not crossing BBB e.g. ranitidine used for peptic ulcer disease)        |
+| H_3      | Sediation? (inverse agonist maybe for narcolepsy, pitolisant)                                |
+| H_4      | Mostly peripheral.                                                                           |
+
+*** Glutamate
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: slide
+:END:
+
+- Dominant excitatory neurotransmitter in the brain
+- Receptors
+  - NMDA
+  - AMPA
+  - KA
+
+*** GABA
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: slide
+:END:
+
+- Dominant inhibitory neurotransitterin the brain
+
+Relevance:
+- Alcohol enhances GABA and reduces NMDA ⇒ anxiolytic effects
+- Alcohol abuse causes compensatory decrease in GABA receptors and increase in
+  NMDA receptors ⇒ hyperexcitable state, continuously dulled by alcohol
+- When alcohol is withdrawn, suddenly no dulling ⇒ hyperexcitable state
+  manifests as /delirium tremens/
+
+
+** Antidepressants
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: slide
+:END:
+
+[[./notebooks/graphics/antidepressants.svg]]
+
+*** TCAs
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: slide
+:END:
+
+[[./notebooks/graphics/tca.svg]]
+
+- Tricyclic antidepressants
+- Severe or melancholic depression
+- Block ALL the monoamines, AND anticholinergic and antihistaminergic
+
+
+AE
+- Anticholinergic effects (things stop flowing)
+- Orthostatic hypotension
+- Sexual dysfunction
+- Weight gain
+- Sedation
+- QRS prolongation (so baseline ECG before starting a TCA)
+-
+
+*** MAOIs
+
+- Monoamine oxidase inhibitors
+- Slows down breakdown of monoamines (serotonin, noradrenaline, dopamine)
+-
+
+*** SSRIs
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: slide
+:END:
+
+[[./notebooks/graphics/ssri.svg]]
+
+- *Selective* serotonin reuptake inhibitors.
+- *First line* pharmacological treatment of depression (with SNRIs and
+  mirtazepine)
+- Assess response after *2-4* weeks (it can take time!)
+
+
+AE:
+- Bleeding (reduces serotonin uptake in platelets) - so beware with NSAID,
+  anticoagulants etc.
+- Hyponatraemia (beware hot weather, diuretics, impaired renal function)
+- Agitation
+- Nausea, anorexia, diarrhoea, abdominal discomfort
+- Insomnia (maybe less so if given in the morning)
+- Orthostatic hypotension
+- Sedation
+- Sexual dysfunction
+- Weight gain
+
+
+Some easy heuristics:
+
+- Fluoxetine is the SSRI of choice for teenagers. ::
+-
+
+
+** Mood stabilisers
+*** Lithium
+
+- Measure lithium concentrations 8-12 hours after last dose
+- Therapeutic levels 0.6-0.8mmol/L
+- Renal excretion
+- Prior to starting: asess kidney, thyroid and parathyroid
+- WHen stable, measure serum lithium every 3-6 months
+- Measure renal function every 3-6 months
+- Monitor thyroid function every 6-12 months
+- Monitor calcium every 12 months (PTH if calcium is raised)
+
+AE: GAIT
+- Gastrointestinal
+- Ataxia
+- Impaired gait
+- Fine tremor
+- Hypothyroidism
+- Diabetes insipidus
+- Memory impairment/cognitive difficulties
+
+*** Valproate
+*** Lamotrigine
+
+- Beware Steven's Johnson's syndrome
+
+*** Carbemazapine
+** Antipsychotics
+** Sedatives
+** Neurostimulation
+* Psychological
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: slide
+:END:
+
+
+#+begin_case
+
+#+begin_card
+
+This is a test of the case. There was a known person and *before* he tried, he
+couldn't find it.
+
+#+end_card
+
+#+end_case
+
+* Meta :noexport:
+
+
+#+begin_src elisp
+(setq org-html-checkbox-type 'html)
+#+end_src
+
+#+RESULTS:
+: html

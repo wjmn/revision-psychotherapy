@@ -1,0 +1,185 @@
+html {
+  outline: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Nunito", "Helvetica", "Arial", sans-serif;
+}
+
+body {
+  background: white;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+p {
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  margin-top: 1em;
+}
+
+ol {
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+
+ul {
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+table {
+  margin-top: 1em;
+}
+
+
+.org-svg {
+  width: 80%;
+  max-width: 1200px;
+  max-height: 1200px;
+  box-shadow: 0 0 20px 3px #dadddd;
+  border-radius: 20px;
+  height: 100%;
+}
+
+
+.figure {
+  height: 95vh;
+  float: left;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+}
+
+.case {
+  height: 100vh;
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 80%;
+  height: 40%;
+  box-sizing: border-box;
+  padding: 1em;
+  box-shadow: 0 0 20px 3px #dadddd;
+  border-radius: 20px;
+  font-size: 1.2em;
+}
+
+.figure p {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+
+#table-of-contents {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: white;
+  height: 100vh;
+  opacity: 0;
+  padding-right: 2em;
+  overflow: auto;
+  z-index: 100;
+  box-shadow: 0 0 10px 2px #dadddd;
+}
+
+.small {
+  font-size: 0.8em;
+}
+
+#table-of-contents:hover {
+  opacity: 1;
+}
+
+.outline-1, .outline-2, .outline-3, .outline-4 {
+  position: relative;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding-top: 40vh;
+  height: 60vh;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#table-of-contents h2 {
+  height: auto;
+  padding: 1em 1em 0 1em;
+  border: none;
+}
+
+.outline-text-1, .outline-text-2, .outline-text-3, .outline-text-4 {
+  height: 100vh;
+  border: 1px solid black;
+}
+
+.slide > h2, .slide > h3, .slide > h4, .slide > h5 {
+  position: absolute;
+  padding: 0;
+  padding-top: 0.5vh;
+  padding-left: 0.5em;
+  box-sizing: border-box;
+  top: 0;
+  border: none;
+  background: white;
+  border-bottom: 1px dotted grey;
+  width: 100%;
+  height: 5vh;
+}
+
+.slide > .outline-text-1, .slide > .outline-text-2, .slide > .outline-text-3, .slide > .outline-text-4 {
+  height: 100vh;
+  padding-top: 10vh;
+  padding-left: 2em;
+  padding-right: 4em;
+  padding-bottom: 2em;
+  box-sizing: border-box;
+  padding-left: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+
+.slide {
+  height: auto;
+  width: 100%;
+}
+
+.title {
+  height: 60vh;
+  margin: 0;
+  padding: 0;
+  padding: 40vh 0 0 0;
+}
+
+li.off {
+  list-style-type: none;
+}
+
+input[type="checkbox"] {
+  width: 2em;
+  height: 2em;
+}
